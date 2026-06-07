@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Inbound Voice Agent - Demo UI</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <main>
+    <h1>Inbound Voice Agent — Voice Demo</h1>
+
+    <section id="voice-section">
+      <h2>Voice Interaction</h2>
+      <div class="controls">
+        <button id="recordBtn">Start Recording</button>
+        <button id="stopBtn" disabled>Stop</button>
+        <span id="status">Idle</span>
+      </div>
+      <div class="transcript">
+        <strong>Transcript:</strong>
+        <div id="transcriptText">—</div>
+      </div>
+      <div class="response">
+        <strong>Agent Response:</strong>
+        <div id="responseText">—</div>
+        <audio id="responseAudio" controls></audio>
+        <div class="meta">
+          <span id="metaSession"></span>
+          <span id="metaConfidence"></span>
+          <span id="metaEscalated"></span>
+        </div>
+      </div>
+    </section>
+
+    <section id="text-section">
+      <h2>Text Interaction</h2>
+      <input id="textQuery" type="text" placeholder="Ask a question..." />
+      <button id="sendText">Send</button>
+      <div id="textResponse">—</div>
+    </section>
+
+    <footer>
+      <small>Demo UI — records audio and sends to /api/v1/agent/voice-query</small>
+    </footer>
+  </main>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

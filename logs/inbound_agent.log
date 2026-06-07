@@ -1,0 +1,1085 @@
+2026-06-07 01:03:41,829 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 01:03:41,842 - app.main - INFO - Database initialized
+2026-06-07 01:03:54,096 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-07 01:03:58,605 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 01:03:58,607 - app.main - INFO - Database initialized
+2026-06-07 01:04:00,528 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-07 01:04:04,936 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 01:04:04,937 - app.main - INFO - Database initialized
+2026-06-07 01:06:29,413 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-07 01:20:45,347 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 01:20:45,355 - app.main - INFO - Database initialized
+2026-06-07 01:23:28,720 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-07 01:24:12,705 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 01:24:12,706 - app.main - INFO - Database initialized
+2026-06-07 01:25:19,543 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-07 01:25:33,988 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 01:25:33,990 - app.main - INFO - Database initialized
+2026-06-07 01:25:43,027 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-06-07 01:25:43,181 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 01:25:43,186 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 01:25:43,199 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 01:25:43,199 - app.rag.ingestion - INFO - Loaded text files from ./data
+2026-06-07 01:25:43,199 - app.rag.ingestion - INFO - Loaded PDF files from ./data
+2026-06-07 01:25:43,199 - app.rag.ingestion - ERROR - Error loading DOCX file data/Breakout FAQs.docx: python-docx is required to load .docx files
+2026-06-07 01:25:43,556 - app.rag.ingestion - INFO - Loaded XLSX file: data/Escape rooms, Parties and Corporates detail (1).xlsx
+2026-06-07 01:25:43,560 - app.rag.ingestion - INFO - Loaded XLSX file: data/Breakout Details.xlsx
+2026-06-07 01:25:43,933 - app.rag.ingestion - INFO - Loaded XLSX file: data/Escape rooms, Parties and Corporates detail.xlsx
+2026-06-07 01:25:43,935 - app.rag.ingestion - INFO - Split 3 documents into 78 chunks
+2026-06-07 01:26:11,402 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-07 01:26:11,422 - app.agent.memory - INFO - Created new session 43a59b59-6688-4842-828d-ca780577086d for customer cust_001
+2026-06-07 01:26:11,424 - app.agent.memory - INFO - Loaded 0 messages for session 43a59b59-6688-4842-828d-ca780577086d
+2026-06-07 01:26:11,432 - app.agent.inbound_agent - INFO - Retrieving documents for: What documents are required for event booking?
+2026-06-07 01:26:55,920 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-07 01:26:56,399 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-07 01:26:56,490 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 01:26:56,491 - app.rag.retriever - INFO - Retrieved 5 documents with scores: [1.064666509628296, 1.064666509628296, 1.064666509628296, 1.0646670789665533, 1.0646670789665533]
+2026-06-07 01:26:56,491 - app.agent.inbound_agent - INFO - Retrieved 5 documents
+2026-06-07 01:26:56,622 - app.rag.ingestion - INFO - Successfully ingested 78 chunks into vector store
+2026-06-07 01:27:01,625 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-07 01:27:11,756 - app.agent.inbound_agent - INFO - Generated response: According to our company's documentation, I couldn't find any specific document that outlines which 
+2026-06-07 01:27:11,766 - app.agent.inbound_agent - INFO - Query processed. Confidence: 0.85
+2026-06-07 01:27:11,777 - app.agent.memory - INFO - Added user message to session 43a59b59-6688-4842-828d-ca780577086d
+2026-06-07 01:27:11,778 - app.agent.memory - INFO - Added assistant message to session 43a59b59-6688-4842-828d-ca780577086d
+2026-06-07 01:28:24,771 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-07 01:28:28,588 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 01:28:28,590 - app.main - INFO - Database initialized
+2026-06-07 01:38:10,139 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-07 01:54:13,509 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 01:54:13,521 - app.main - INFO - Database initialized
+2026-06-07 01:55:29,553 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-06-07 01:55:29,755 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 01:55:29,874 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 01:55:29,889 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 01:55:29,890 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-07 01:55:29,900 - app.agent.memory - INFO - Created new session 2656bf87-1655-4a52-a374-51e7d5ee5e7b for customer cust-001
+2026-06-07 01:55:29,902 - app.agent.memory - INFO - Loaded 0 messages for session 2656bf87-1655-4a52-a374-51e7d5ee5e7b
+2026-06-07 01:55:29,909 - app.agent.inbound_agent - INFO - Retrieving documents for: What is your name?
+2026-06-07 01:55:29,911 - app.rag.ingestion - ERROR - Error retrieving documents: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+2026-06-07 01:55:29,911 - app.rag.retriever - INFO - No documents retrieved for query: What is your name?
+2026-06-07 01:55:29,911 - app.agent.inbound_agent - INFO - Retrieved 0 documents
+2026-06-07 01:55:29,926 - app.agent.inbound_agent - ERROR - Error generating response: [Errno 61] Connection refused
+2026-06-07 01:55:29,930 - app.agent.inbound_agent - INFO - Query escalated: llm_error
+2026-06-07 01:55:29,931 - app.agent.inbound_agent - INFO - Query processed. Confidence: 0.0
+2026-06-07 01:55:29,934 - app.agent.memory - INFO - Added user message to session 2656bf87-1655-4a52-a374-51e7d5ee5e7b
+2026-06-07 01:55:29,936 - app.agent.memory - INFO - Added assistant message to session 2656bf87-1655-4a52-a374-51e7d5ee5e7b
+2026-06-07 01:56:11,343 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-07 01:56:11,345 - app.agent.memory - INFO - Created new session 7d23269f-be4b-47ae-a065-8aee7b552465 for customer web_demo
+2026-06-07 01:56:11,346 - app.agent.memory - INFO - Loaded 0 messages for session 7d23269f-be4b-47ae-a065-8aee7b552465
+2026-06-07 01:56:11,348 - app.agent.inbound_agent - INFO - Retrieving documents for: Hello, what can you help me with?
+2026-06-07 01:56:11,348 - app.rag.ingestion - ERROR - Error retrieving documents: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+2026-06-07 01:56:11,348 - app.rag.retriever - INFO - No documents retrieved for query: Hello, what can you help me with?
+2026-06-07 01:56:11,348 - app.agent.inbound_agent - INFO - Retrieved 0 documents
+2026-06-07 01:56:11,361 - app.agent.inbound_agent - ERROR - Error generating response: [Errno 61] Connection refused
+2026-06-07 01:56:11,364 - app.agent.inbound_agent - INFO - Query escalated: llm_error
+2026-06-07 01:56:11,365 - app.agent.inbound_agent - INFO - Query processed. Confidence: 0.0
+2026-06-07 01:56:11,367 - app.agent.memory - INFO - Added user message to session 7d23269f-be4b-47ae-a065-8aee7b552465
+2026-06-07 01:56:11,368 - app.agent.memory - INFO - Added assistant message to session 7d23269f-be4b-47ae-a065-8aee7b552465
+2026-06-07 01:58:26,356 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-07 01:58:29,850 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 01:58:29,852 - app.main - INFO - Database initialized
+2026-06-07 01:58:46,760 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-07 01:58:49,920 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 01:58:49,922 - app.main - INFO - Database initialized
+2026-06-07 02:00:02,460 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 02:00:02,472 - app.main - INFO - Database initialized
+2026-06-07 02:00:43,650 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-07 02:00:46,866 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 02:00:46,867 - app.main - INFO - Database initialized
+2026-06-07 02:00:55,763 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-07 02:00:58,987 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 02:00:58,988 - app.main - INFO - Database initialized
+2026-06-07 02:00:59,647 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-06-07 02:00:59,812 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 02:00:59,907 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 02:00:59,927 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 02:00:59,929 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-07 02:00:59,929 - app.api.agent_routes - ERROR - Error processing voice query: 'Settings' object has no attribute 'whisper_model'
+2026-06-07 02:00:59,929 - app.api.agent_routes - ERROR - TTS fallback failed: 'Settings' object has no attribute 'tts_model'
+2026-06-07 02:01:10,520 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-07 02:01:13,324 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 02:01:13,325 - app.main - INFO - Database initialized
+2026-06-07 02:01:36,172 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-07 02:01:38,962 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 02:01:38,963 - app.main - INFO - Database initialized
+2026-06-07 02:01:41,182 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-06-07 02:01:41,346 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 02:01:41,439 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 02:01:41,454 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 02:01:41,456 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-07 02:01:41,456 - app.agent.voice_processor - INFO - Loading Whisper model: base
+2026-06-07 02:01:43,680 - app.api.agent_routes - ERROR - Error processing voice query: [Errno 28] No space left on device
+2026-06-07 02:01:43,681 - app.api.agent_routes - ERROR - TTS fallback failed: 'Settings' object has no attribute 'tts_model'
+2026-06-07 02:02:20,703 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-07 02:02:20,715 - app.agent.voice_processor - INFO - Loading Whisper model: base
+2026-06-07 02:02:20,926 - app.api.agent_routes - ERROR - Error processing voice query: [Errno 28] No space left on device: '/Users/chandrikasanjay/.cache/whisper/base.pt'
+2026-06-07 02:02:20,928 - app.api.agent_routes - ERROR - TTS fallback failed: 'Settings' object has no attribute 'tts_model'
+2026-06-07 02:09:05,145 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-07 02:09:05,146 - app.agent.voice_processor - INFO - Loading Whisper model: base
+2026-06-07 02:09:10,677 - app.agent.voice_processor - INFO - Whisper model base loaded successfully
+2026-06-07 02:09:10,677 - app.api.agent_routes - ERROR - Error processing voice query: 'Settings' object has no attribute 'tts_model'
+2026-06-07 02:09:10,677 - app.api.agent_routes - ERROR - TTS fallback failed: 'Settings' object has no attribute 'tts_model'
+2026-06-07 02:09:12,330 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-07 02:09:12,330 - app.api.agent_routes - ERROR - Error processing voice query: 'Settings' object has no attribute 'tts_model'
+2026-06-07 02:09:12,331 - app.api.agent_routes - ERROR - TTS fallback failed: 'Settings' object has no attribute 'tts_model'
+2026-06-07 02:09:29,081 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-07 02:09:33,313 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 02:09:33,318 - app.main - INFO - Database initialized
+2026-06-07 02:09:41,678 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-06-07 02:09:41,841 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 02:09:41,846 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 02:09:41,860 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 02:09:41,862 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-07 02:09:41,862 - app.agent.voice_processor - INFO - Loading Whisper model: base
+2026-06-07 02:09:42,900 - app.agent.voice_processor - INFO - Whisper model base loaded successfully
+2026-06-07 02:09:42,901 - app.agent.voice_processor - INFO - Initializing Piper TTS with model: piper
+2026-06-07 02:09:42,910 - app.agent.memory - INFO - Created new session ec89e68b-2f52-4331-b423-d61a1c16555b for customer test_user
+2026-06-07 02:09:42,912 - app.agent.memory - INFO - Loaded 0 messages for session ec89e68b-2f52-4331-b423-d61a1c16555b
+2026-06-07 02:09:42,912 - app.api.agent_routes - INFO - Transcribing audio...
+2026-06-07 02:09:42,943 - app.agent.voice_processor - ERROR - Error transcribing audio: expected m1 and m2 to have the same dtype, but got: float != double
+2026-06-07 02:09:42,943 - app.api.agent_routes - ERROR - Error processing voice query: Could not transcribe audio
+2026-06-07 02:09:42,943 - app.agent.voice_processor - INFO - Running TTS: piper --model piper --output-raw
+2026-06-07 02:09:42,976 - app.agent.voice_processor - ERROR - Error synthesizing speech: [Errno 2] No such file or directory: 'piper'
+2026-06-07 02:09:42,976 - app.api.agent_routes - ERROR - TTS fallback failed: [Errno 2] No such file or directory: 'piper'
+2026-06-07 02:09:53,971 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-07 02:09:53,974 - app.agent.memory - INFO - Created new session c4b60ef3-73a5-45fb-bef4-24e91430ceea for customer test_user
+2026-06-07 02:09:53,975 - app.agent.memory - INFO - Loaded 0 messages for session c4b60ef3-73a5-45fb-bef4-24e91430ceea
+2026-06-07 02:09:53,975 - app.api.agent_routes - INFO - Transcribing audio...
+2026-06-07 02:09:53,985 - app.agent.voice_processor - ERROR - Error transcribing audio: expected m1 and m2 to have the same dtype, but got: float != double
+2026-06-07 02:09:53,986 - app.api.agent_routes - ERROR - Error processing voice query: Could not transcribe audio
+2026-06-07 02:09:53,986 - app.agent.voice_processor - INFO - Running TTS: piper --model piper --output-raw
+2026-06-07 02:09:53,998 - app.agent.voice_processor - ERROR - Error synthesizing speech: [Errno 2] No such file or directory: 'piper'
+2026-06-07 02:09:53,998 - app.api.agent_routes - ERROR - TTS fallback failed: [Errno 2] No such file or directory: 'piper'
+2026-06-07 02:10:11,186 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-07 02:10:14,487 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 02:10:14,489 - app.main - INFO - Database initialized
+2026-06-07 02:10:23,484 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-07 02:10:26,208 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 02:10:26,209 - app.main - INFO - Database initialized
+2026-06-07 02:10:47,825 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-07 02:10:50,834 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 02:10:50,835 - app.main - INFO - Database initialized
+2026-06-07 02:10:53,023 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-06-07 02:10:53,182 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 02:10:53,187 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 02:10:53,200 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 02:10:53,202 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-07 02:10:53,202 - app.agent.voice_processor - INFO - Loading Whisper model: base
+2026-06-07 02:10:54,327 - app.agent.voice_processor - INFO - Whisper model base loaded successfully
+2026-06-07 02:10:54,327 - app.agent.voice_processor - INFO - Initializing Piper TTS with model: piper
+2026-06-07 02:10:54,334 - app.agent.memory - INFO - Created new session e9fc7207-cf13-4192-8e16-2c7fc40c8160 for customer test_user
+2026-06-07 02:10:54,336 - app.agent.memory - INFO - Loaded 0 messages for session e9fc7207-cf13-4192-8e16-2c7fc40c8160
+2026-06-07 02:10:54,336 - app.api.agent_routes - INFO - Transcribing audio...
+2026-06-07 02:10:54,353 - app.agent.voice_processor - ERROR - Error transcribing audio: expected m1 and m2 to have the same dtype, but got: float != double
+2026-06-07 02:10:54,355 - app.api.agent_routes - WARNING - Transcription returned empty query
+2026-06-07 02:11:28,149 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-07 02:11:28,151 - app.agent.memory - INFO - Created new session 8472c526-5c72-4cb2-81fd-25efa6c59447 for customer demo_user
+2026-06-07 02:11:28,152 - app.agent.memory - INFO - Loaded 0 messages for session 8472c526-5c72-4cb2-81fd-25efa6c59447
+2026-06-07 02:11:28,152 - app.api.agent_routes - INFO - Transcribing audio...
+2026-06-07 02:11:28,163 - app.agent.voice_processor - ERROR - Error transcribing audio: expected m1 and m2 to have the same dtype, but got: float != double
+2026-06-07 02:11:28,166 - app.api.agent_routes - WARNING - Transcription returned empty query
+2026-06-07 02:11:48,237 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-07 02:11:48,246 - app.agent.memory - INFO - Created new session 4864372f-6c33-4c16-b2ff-9bfe0ab86a25 for customer web_demo
+2026-06-07 02:11:48,247 - app.agent.memory - INFO - Loaded 0 messages for session 4864372f-6c33-4c16-b2ff-9bfe0ab86a25
+2026-06-07 02:11:48,247 - app.api.agent_routes - INFO - Transcribing audio...
+2026-06-07 02:11:48,520 - app.agent.voice_processor - ERROR - Fallback conversion failed: [Errno 2] No such file or directory: 'ffprobe'
+2026-06-07 02:11:48,521 - app.agent.voice_processor - ERROR - Error transcribing audio: [Errno 2] No such file or directory: 'ffprobe'
+2026-06-07 02:11:48,521 - app.api.agent_routes - WARNING - Transcription returned empty query
+2026-06-07 02:11:58,103 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-07 02:11:58,109 - app.agent.memory - INFO - Created new session c9ae1b89-acd4-4b4f-b464-3f3e85172202 for customer web_demo
+2026-06-07 02:11:58,111 - app.agent.memory - INFO - Loaded 0 messages for session c9ae1b89-acd4-4b4f-b464-3f3e85172202
+2026-06-07 02:11:58,111 - app.api.agent_routes - INFO - Transcribing audio...
+2026-06-07 02:11:58,119 - app.agent.voice_processor - ERROR - Fallback conversion failed: [Errno 2] No such file or directory: 'ffprobe'
+2026-06-07 02:11:58,119 - app.agent.voice_processor - ERROR - Error transcribing audio: [Errno 2] No such file or directory: 'ffprobe'
+2026-06-07 02:11:58,120 - app.api.agent_routes - WARNING - Transcription returned empty query
+2026-06-07 02:12:04,315 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-07 02:12:04,319 - app.agent.memory - INFO - Created new session e147c85b-e51f-47f7-b412-4d3a2b8d5116 for customer web_demo
+2026-06-07 02:12:04,320 - app.agent.memory - INFO - Loaded 0 messages for session e147c85b-e51f-47f7-b412-4d3a2b8d5116
+2026-06-07 02:12:04,320 - app.api.agent_routes - INFO - Transcribing audio...
+2026-06-07 02:12:04,327 - app.agent.voice_processor - ERROR - Fallback conversion failed: [Errno 2] No such file or directory: 'ffprobe'
+2026-06-07 02:12:04,327 - app.agent.voice_processor - ERROR - Error transcribing audio: [Errno 2] No such file or directory: 'ffprobe'
+2026-06-07 02:12:04,327 - app.api.agent_routes - WARNING - Transcription returned empty query
+2026-06-07 02:12:55,995 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-07 02:12:56,001 - app.agent.memory - INFO - Created new session 6eb20d75-30e4-4c17-b069-97feb3969048 for customer web_demo
+2026-06-07 02:12:56,002 - app.agent.memory - INFO - Loaded 0 messages for session 6eb20d75-30e4-4c17-b069-97feb3969048
+2026-06-07 02:12:56,014 - app.agent.inbound_agent - INFO - Retrieving documents for: what is breakout
+2026-06-07 02:12:56,024 - app.rag.ingestion - ERROR - Error retrieving documents: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+2026-06-07 02:12:56,024 - app.rag.retriever - INFO - No documents retrieved for query: what is breakout
+2026-06-07 02:12:56,024 - app.agent.inbound_agent - INFO - Retrieved 0 documents
+2026-06-07 02:12:56,039 - app.agent.inbound_agent - ERROR - Error generating response: [Errno 61] Connection refused
+2026-06-07 02:12:56,045 - app.agent.inbound_agent - INFO - Query escalated: llm_error
+2026-06-07 02:12:56,046 - app.agent.inbound_agent - INFO - Query processed. Confidence: 0.0
+2026-06-07 02:12:56,048 - app.agent.memory - INFO - Added user message to session 6eb20d75-30e4-4c17-b069-97feb3969048
+2026-06-07 02:12:56,049 - app.agent.memory - INFO - Added assistant message to session 6eb20d75-30e4-4c17-b069-97feb3969048
+2026-06-07 02:12:57,550 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-07 02:12:57,553 - app.agent.memory - INFO - Created new session 69194870-a5c3-4c39-980c-1478b442cccf for customer web_demo
+2026-06-07 02:12:57,554 - app.agent.memory - INFO - Loaded 0 messages for session 69194870-a5c3-4c39-980c-1478b442cccf
+2026-06-07 02:12:57,555 - app.agent.inbound_agent - INFO - Retrieving documents for: what is breakout
+2026-06-07 02:12:57,556 - app.rag.ingestion - ERROR - Error retrieving documents: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+2026-06-07 02:12:57,556 - app.rag.retriever - INFO - No documents retrieved for query: what is breakout
+2026-06-07 02:12:57,556 - app.agent.inbound_agent - INFO - Retrieved 0 documents
+2026-06-07 02:12:57,568 - app.agent.inbound_agent - ERROR - Error generating response: [Errno 61] Connection refused
+2026-06-07 02:12:57,571 - app.agent.inbound_agent - INFO - Query escalated: llm_error
+2026-06-07 02:12:57,572 - app.agent.inbound_agent - INFO - Query processed. Confidence: 0.0
+2026-06-07 02:12:57,573 - app.agent.memory - INFO - Added user message to session 69194870-a5c3-4c39-980c-1478b442cccf
+2026-06-07 02:12:57,574 - app.agent.memory - INFO - Added assistant message to session 69194870-a5c3-4c39-980c-1478b442cccf
+2026-06-07 02:13:05,647 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-07 02:13:05,652 - app.agent.memory - INFO - Created new session f5b954cb-f24b-496b-a7d7-df40d3f6c725 for customer web_demo
+2026-06-07 02:13:05,653 - app.agent.memory - INFO - Loaded 0 messages for session f5b954cb-f24b-496b-a7d7-df40d3f6c725
+2026-06-07 02:13:05,656 - app.agent.inbound_agent - INFO - Retrieving documents for: what is breakout
+2026-06-07 02:13:05,657 - app.rag.ingestion - ERROR - Error retrieving documents: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+2026-06-07 02:13:05,657 - app.rag.retriever - INFO - No documents retrieved for query: what is breakout
+2026-06-07 02:13:05,657 - app.agent.inbound_agent - INFO - Retrieved 0 documents
+2026-06-07 02:13:05,669 - app.agent.inbound_agent - ERROR - Error generating response: [Errno 61] Connection refused
+2026-06-07 02:13:05,672 - app.agent.inbound_agent - INFO - Query escalated: llm_error
+2026-06-07 02:13:05,673 - app.agent.inbound_agent - INFO - Query processed. Confidence: 0.0
+2026-06-07 02:13:05,675 - app.agent.memory - INFO - Added user message to session f5b954cb-f24b-496b-a7d7-df40d3f6c725
+2026-06-07 02:13:05,676 - app.agent.memory - INFO - Added assistant message to session f5b954cb-f24b-496b-a7d7-df40d3f6c725
+2026-06-07 02:20:49,098 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 02:20:49,110 - app.main - INFO - Database initialized
+2026-06-07 02:21:31,455 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-06-07 02:21:31,612 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 02:21:31,614 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 02:21:31,630 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 02:21:31,632 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-07 02:21:31,632 - app.agent.voice_processor - INFO - Loading Whisper model: base
+2026-06-07 02:21:32,740 - app.agent.voice_processor - INFO - Whisper model base loaded successfully
+2026-06-07 02:21:32,740 - app.agent.voice_processor - INFO - Initializing Piper TTS with model: piper
+2026-06-07 02:21:32,747 - app.agent.memory - INFO - Created new session 78a77f8c-30d0-497b-bbca-38adbf9c8241 for customer web_demo
+2026-06-07 02:21:32,749 - app.agent.memory - INFO - Loaded 0 messages for session 78a77f8c-30d0-497b-bbca-38adbf9c8241
+2026-06-07 02:21:32,749 - app.api.agent_routes - INFO - Transcribing audio...
+2026-06-07 02:21:32,778 - app.agent.voice_processor - ERROR - Fallback conversion failed: [Errno 2] No such file or directory: 'ffprobe'
+2026-06-07 02:21:32,778 - app.agent.voice_processor - ERROR - Error transcribing audio: [Errno 2] No such file or directory: 'ffprobe'
+2026-06-07 02:21:32,778 - app.api.agent_routes - WARNING - Transcription returned empty query
+2026-06-07 02:21:52,481 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-07 02:21:52,488 - app.agent.memory - INFO - Created new session 5d5d2b76-588f-42c4-a18a-93f437a9db17 for customer web_demo
+2026-06-07 02:21:52,490 - app.agent.memory - INFO - Loaded 0 messages for session 5d5d2b76-588f-42c4-a18a-93f437a9db17
+2026-06-07 02:21:52,502 - app.agent.inbound_agent - INFO - Retrieving documents for: what is breakout
+2026-06-07 02:21:52,508 - app.rag.ingestion - ERROR - Error retrieving documents: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+2026-06-07 02:21:52,508 - app.rag.retriever - INFO - No documents retrieved for query: what is breakout
+2026-06-07 02:21:52,508 - app.agent.inbound_agent - INFO - Retrieved 0 documents
+2026-06-07 02:21:52,535 - app.agent.inbound_agent - ERROR - Error generating response: [Errno 61] Connection refused
+2026-06-07 02:21:52,540 - app.agent.inbound_agent - INFO - Query escalated: llm_error
+2026-06-07 02:21:52,542 - app.agent.inbound_agent - INFO - Query processed. Confidence: 0.0
+2026-06-07 02:21:52,544 - app.agent.memory - INFO - Added user message to session 5d5d2b76-588f-42c4-a18a-93f437a9db17
+2026-06-07 02:21:52,545 - app.agent.memory - INFO - Added assistant message to session 5d5d2b76-588f-42c4-a18a-93f437a9db17
+2026-06-07 02:23:25,341 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-07 02:23:25,351 - app.agent.memory - INFO - Created new session 40e557aa-1f56-410d-a1e0-aeee6c67800d for customer web_demo
+2026-06-07 02:23:25,352 - app.agent.memory - INFO - Loaded 0 messages for session 40e557aa-1f56-410d-a1e0-aeee6c67800d
+2026-06-07 02:23:25,355 - app.agent.inbound_agent - INFO - Retrieving documents for: what is breakout
+2026-06-07 02:23:25,356 - app.rag.ingestion - ERROR - Error retrieving documents: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+2026-06-07 02:23:25,356 - app.rag.retriever - INFO - No documents retrieved for query: what is breakout
+2026-06-07 02:23:25,356 - app.agent.inbound_agent - INFO - Retrieved 0 documents
+2026-06-07 02:23:25,368 - app.agent.inbound_agent - ERROR - Error generating response: [Errno 61] Connection refused
+2026-06-07 02:23:25,371 - app.agent.inbound_agent - INFO - Query escalated: llm_error
+2026-06-07 02:23:25,372 - app.agent.inbound_agent - INFO - Query processed. Confidence: 0.0
+2026-06-07 02:23:25,374 - app.agent.memory - INFO - Added user message to session 40e557aa-1f56-410d-a1e0-aeee6c67800d
+2026-06-07 02:23:25,374 - app.agent.memory - INFO - Added assistant message to session 40e557aa-1f56-410d-a1e0-aeee6c67800d
+2026-06-07 02:25:04,976 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-07 02:25:04,985 - app.agent.memory - INFO - Created new session c71c7c61-6e73-4276-981a-d4949cc21214 for customer web_demo
+2026-06-07 02:25:04,986 - app.agent.memory - INFO - Loaded 0 messages for session c71c7c61-6e73-4276-981a-d4949cc21214
+2026-06-07 02:25:04,991 - app.agent.inbound_agent - INFO - Retrieving documents for: what is breakout
+2026-06-07 02:25:04,992 - app.rag.ingestion - ERROR - Error retrieving documents: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+2026-06-07 02:25:04,993 - app.rag.retriever - INFO - No documents retrieved for query: what is breakout
+2026-06-07 02:25:04,993 - app.agent.inbound_agent - INFO - Retrieved 0 documents
+2026-06-07 02:25:05,009 - app.agent.inbound_agent - ERROR - Error generating response: [Errno 61] Connection refused
+2026-06-07 02:25:05,012 - app.agent.inbound_agent - INFO - Query escalated: llm_error
+2026-06-07 02:25:05,013 - app.agent.inbound_agent - INFO - Query processed. Confidence: 0.0
+2026-06-07 02:25:05,015 - app.agent.memory - INFO - Added user message to session c71c7c61-6e73-4276-981a-d4949cc21214
+2026-06-07 02:25:05,016 - app.agent.memory - INFO - Added assistant message to session c71c7c61-6e73-4276-981a-d4949cc21214
+2026-06-07 02:25:23,489 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-07 02:25:23,501 - app.agent.memory - INFO - Created new session d2802115-d3c7-4681-ac99-61e748e6bbd5 for customer web_demo
+2026-06-07 02:25:23,503 - app.agent.memory - INFO - Loaded 0 messages for session d2802115-d3c7-4681-ac99-61e748e6bbd5
+2026-06-07 02:25:23,526 - app.agent.inbound_agent - INFO - Retrieving documents for: what is breakout
+2026-06-07 02:25:51,731 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-07 02:25:52,926 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 02:25:52,928 - app.rag.retriever - INFO - Retrieved 5 documents with scores: [1.2882224321365356, 1.2882224321365356, 1.2882224321365356, 1.2882224321365356, 1.2882224321365356]
+2026-06-07 02:25:52,928 - app.agent.inbound_agent - INFO - Retrieved 5 documents
+2026-06-07 02:25:56,276 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-07 02:26:08,198 - app.agent.inbound_agent - INFO - Generated response: I couldn't find any information about "Breakout" in our documentation. It's possible that it might b
+2026-06-07 02:26:08,216 - app.agent.inbound_agent - INFO - Query processed. Confidence: 0.85
+2026-06-07 02:26:08,243 - app.agent.memory - INFO - Added user message to session d2802115-d3c7-4681-ac99-61e748e6bbd5
+2026-06-07 02:26:08,287 - app.agent.memory - INFO - Added assistant message to session d2802115-d3c7-4681-ac99-61e748e6bbd5
+2026-06-07 02:26:08,384 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-07 02:26:13,238 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 02:26:13,240 - app.main - INFO - Database initialized
+2026-06-07 02:26:45,445 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-06-07 02:26:45,602 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 02:26:45,607 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 02:26:45,620 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 02:26:45,622 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-07 02:26:45,622 - app.agent.voice_processor - INFO - Loading Whisper model: base
+2026-06-07 02:26:46,631 - app.agent.voice_processor - INFO - Whisper model base loaded successfully
+2026-06-07 02:26:46,631 - app.agent.voice_processor - INFO - Initializing Piper TTS with model: piper
+2026-06-07 02:26:46,638 - app.agent.memory - INFO - Created new session 2dc29f55-75ff-41f7-a76d-a12f124a4487 for customer web_demo
+2026-06-07 02:26:46,640 - app.agent.memory - INFO - Loaded 0 messages for session 2dc29f55-75ff-41f7-a76d-a12f124a4487
+2026-06-07 02:26:46,640 - app.api.agent_routes - INFO - Transcribing audio...
+2026-06-07 02:26:46,670 - app.agent.voice_processor - ERROR - Fallback conversion failed: [Errno 2] No such file or directory: 'ffprobe'
+2026-06-07 02:26:46,671 - app.agent.voice_processor - ERROR - Error transcribing audio: [Errno 2] No such file or directory: 'ffprobe'
+2026-06-07 02:26:46,671 - app.api.agent_routes - WARNING - Transcription returned empty query
+2026-06-07 02:27:10,554 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-07 02:27:10,561 - app.agent.memory - INFO - Created new session 83d5d821-5352-4d9c-936f-138eb886e77e for customer web_demo
+2026-06-07 02:27:10,563 - app.agent.memory - INFO - Loaded 0 messages for session 83d5d821-5352-4d9c-936f-138eb886e77e
+2026-06-07 02:27:10,563 - app.api.agent_routes - INFO - Transcribing audio...
+2026-06-07 02:27:10,585 - app.agent.voice_processor - ERROR - Fallback conversion failed: [Errno 2] No such file or directory: 'ffprobe'
+2026-06-07 02:27:10,585 - app.agent.voice_processor - ERROR - Error transcribing audio: [Errno 2] No such file or directory: 'ffprobe'
+2026-06-07 02:27:10,586 - app.api.agent_routes - WARNING - Transcription returned empty query
+2026-06-07 02:27:20,530 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-07 02:27:20,537 - app.agent.memory - INFO - Created new session fd10008f-d5e8-477a-8af0-7022250bbce5 for customer web_demo
+2026-06-07 02:27:20,538 - app.agent.memory - INFO - Loaded 0 messages for session fd10008f-d5e8-477a-8af0-7022250bbce5
+2026-06-07 02:27:20,539 - app.api.agent_routes - INFO - Transcribing audio...
+2026-06-07 02:27:20,560 - app.agent.voice_processor - ERROR - Fallback conversion failed: [Errno 2] No such file or directory: 'ffprobe'
+2026-06-07 02:27:20,561 - app.agent.voice_processor - ERROR - Error transcribing audio: [Errno 2] No such file or directory: 'ffprobe'
+2026-06-07 02:27:20,561 - app.api.agent_routes - WARNING - Transcription returned empty query
+2026-06-07 02:27:32,396 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-07 02:27:32,404 - app.agent.memory - INFO - Created new session a7a91d43-4d62-48ad-9b7d-93177edd4ef6 for customer web_demo
+2026-06-07 02:27:32,405 - app.agent.memory - INFO - Loaded 0 messages for session a7a91d43-4d62-48ad-9b7d-93177edd4ef6
+2026-06-07 02:27:32,405 - app.api.agent_routes - INFO - Transcribing audio...
+2026-06-07 02:27:32,425 - app.agent.voice_processor - ERROR - Fallback conversion failed: [Errno 2] No such file or directory: 'ffprobe'
+2026-06-07 02:27:32,426 - app.agent.voice_processor - ERROR - Error transcribing audio: [Errno 2] No such file or directory: 'ffprobe'
+2026-06-07 02:27:32,426 - app.api.agent_routes - WARNING - Transcription returned empty query
+2026-06-07 02:29:13,982 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-07 02:29:17,064 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 02:29:17,065 - app.main - INFO - Database initialized
+2026-06-07 02:29:25,048 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-07 02:29:27,523 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 02:29:27,524 - app.main - INFO - Database initialized
+2026-06-07 02:29:47,119 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-07 02:29:49,702 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 02:29:49,703 - app.main - INFO - Database initialized
+2026-06-07 02:29:54,611 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-06-07 02:29:54,762 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 02:29:54,767 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 02:29:54,780 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 02:29:54,781 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-07 02:29:54,781 - app.agent.voice_processor - INFO - Loading Whisper model: base
+2026-06-07 02:29:55,791 - app.agent.voice_processor - INFO - Whisper model base loaded successfully
+2026-06-07 02:29:55,791 - app.agent.voice_processor - INFO - Initializing Piper TTS with model: piper
+2026-06-07 02:29:55,798 - app.agent.memory - INFO - Created new session bc6fe99d-cb8a-41c8-9211-db44b8f1ee78 for customer web_demo
+2026-06-07 02:29:55,801 - app.agent.memory - INFO - Loaded 0 messages for session bc6fe99d-cb8a-41c8-9211-db44b8f1ee78
+2026-06-07 02:29:55,801 - app.api.agent_routes - INFO - Transcribing audio...
+2026-06-07 02:29:55,834 - app.agent.voice_processor - ERROR - Fallback conversion with pydub failed: [Errno 2] No such file or directory: 'ffprobe'
+2026-06-07 02:29:55,844 - app.agent.voice_processor - ERROR - FFmpeg conversion failed: [Errno 2] No such file or directory: 'ffmpeg'
+2026-06-07 02:29:55,844 - app.agent.voice_processor - ERROR - Error transcribing audio: [Errno 2] No such file or directory: 'ffmpeg'
+2026-06-07 02:29:55,844 - app.api.agent_routes - WARNING - Transcription returned empty query
+2026-06-07 02:30:05,599 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-07 02:30:12,647 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 02:30:12,648 - app.main - INFO - Database initialized
+2026-06-07 02:30:20,940 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-06-07 02:30:21,089 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 02:30:21,094 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 02:30:21,107 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 02:30:21,108 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-07 02:30:21,108 - app.agent.voice_processor - INFO - Loading Whisper model: base
+2026-06-07 02:30:22,051 - app.agent.voice_processor - INFO - Whisper model base loaded successfully
+2026-06-07 02:30:22,052 - app.agent.voice_processor - INFO - Initializing Piper TTS with model: piper
+2026-06-07 02:30:22,059 - app.agent.memory - INFO - Created new session 431596f4-628f-4953-9dca-6d43d5ef4640 for customer web_demo
+2026-06-07 02:30:22,060 - app.agent.memory - INFO - Loaded 0 messages for session 431596f4-628f-4953-9dca-6d43d5ef4640
+2026-06-07 02:30:22,060 - app.api.agent_routes - INFO - Transcribing audio...
+2026-06-07 02:30:22,089 - app.agent.voice_processor - ERROR - Fallback conversion with pydub failed: [Errno 2] No such file or directory: 'ffprobe'
+2026-06-07 02:30:22,098 - app.agent.voice_processor - ERROR - FFmpeg conversion failed: [Errno 2] No such file or directory: 'ffmpeg'
+2026-06-07 02:30:22,098 - app.agent.voice_processor - ERROR - Error transcribing audio: [Errno 2] No such file or directory: 'ffmpeg'
+2026-06-07 02:30:22,099 - app.api.agent_routes - WARNING - Transcription returned empty query
+2026-06-07 02:30:33,279 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-07 02:30:33,287 - app.agent.memory - INFO - Created new session 4615b839-58e4-427d-9013-f7b4c84055f1 for customer web_demo
+2026-06-07 02:30:33,289 - app.agent.memory - INFO - Loaded 0 messages for session 4615b839-58e4-427d-9013-f7b4c84055f1
+2026-06-07 02:30:33,299 - app.agent.inbound_agent - INFO - Retrieving documents for: what is breakout
+2026-06-07 02:30:43,839 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-07 02:30:44,449 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 02:30:44,449 - app.rag.retriever - INFO - Retrieved 5 documents with scores: [1.2882224321365356, 1.2882224321365356, 1.2882224321365356, 1.2882224321365356, 1.2882224321365356]
+2026-06-07 02:30:44,449 - app.agent.inbound_agent - INFO - Retrieved 5 documents
+2026-06-07 02:30:47,682 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-07 02:30:54,364 - app.agent.inbound_agent - INFO - Generated response: I couldn't find any information about "Breakout" in our company documentation. It's possible that it
+2026-06-07 02:30:54,371 - app.agent.inbound_agent - INFO - Query processed. Confidence: 0.85
+2026-06-07 02:30:54,388 - app.agent.memory - INFO - Added user message to session 4615b839-58e4-427d-9013-f7b4c84055f1
+2026-06-07 02:30:54,390 - app.agent.memory - INFO - Added assistant message to session 4615b839-58e4-427d-9013-f7b4c84055f1
+2026-06-07 02:31:46,373 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-07 02:31:53,558 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 02:31:53,560 - app.main - INFO - Database initialized
+2026-06-07 02:31:57,631 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-06-07 02:31:57,786 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 02:31:57,790 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 02:31:57,803 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 02:31:57,804 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-07 02:31:57,804 - app.agent.voice_processor - INFO - Loading Whisper model: base
+2026-06-07 02:31:59,793 - app.api.agent_routes - ERROR - Error processing voice query: [Errno 28] No space left on device
+2026-06-07 02:32:17,652 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-07 02:32:17,772 - app.api.agent_routes - ERROR - Error processing query: (sqlite3.OperationalError) unable to open database file
+[SQL: INSERT INTO chat_sessions (id, customer_id, created_at, updated_at, status) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('3a1245db-345e-49e5-a83c-dbe0c5e7d0c9', 'web_demo', '2026-06-06 21:02:17.771280', '2026-06-06 21:02:17.771287', 'active')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-06-07 02:32:19,673 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-07 02:32:19,679 - app.api.agent_routes - ERROR - Error processing query: (sqlite3.OperationalError) unable to open database file
+[SQL: INSERT INTO chat_sessions (id, customer_id, created_at, updated_at, status) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('32fbaf26-934a-4725-8b93-742e4ddad3b9', 'web_demo', '2026-06-06 21:02:19.675247', '2026-06-06 21:02:19.675257', 'active')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-06-07 02:32:24,499 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-07 02:32:24,502 - app.api.agent_routes - ERROR - Error processing query: (sqlite3.OperationalError) unable to open database file
+[SQL: INSERT INTO chat_sessions (id, customer_id, created_at, updated_at, status) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('2b9a4f18-eacc-4941-9ac4-7137f8e26fa3', 'web_demo', '2026-06-06 21:02:24.501989', '2026-06-06 21:02:24.502002', 'active')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-06-07 02:32:33,124 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-07 03:01:14,989 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 03:01:14,992 - app.main - INFO - Database initialized
+2026-06-07 03:01:32,249 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-06-07 03:01:32,421 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 03:01:32,426 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 03:01:32,439 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 03:01:32,441 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-07 03:01:32,441 - app.agent.voice_processor - INFO - Loading Whisper model: base
+2026-06-07 03:01:40,584 - app.agent.voice_processor - INFO - Whisper model base loaded successfully
+2026-06-07 03:01:40,585 - app.agent.voice_processor - INFO - Initializing Piper TTS with model: piper
+2026-06-07 03:01:40,593 - app.agent.memory - INFO - Created new session e8cad5da-e7a6-472d-999e-601debedd273 for customer web_demo
+2026-06-07 03:01:40,595 - app.agent.memory - INFO - Loaded 0 messages for session e8cad5da-e7a6-472d-999e-601debedd273
+2026-06-07 03:01:40,595 - app.api.agent_routes - INFO - Transcribing audio...
+2026-06-07 03:01:40,652 - app.agent.voice_processor - ERROR - Fallback conversion with pydub failed: [Errno 2] No such file or directory: 'ffprobe'
+2026-06-07 03:01:40,660 - app.agent.voice_processor - ERROR - FFmpeg conversion failed: [Errno 2] No such file or directory: 'ffmpeg'
+2026-06-07 03:01:40,661 - app.agent.voice_processor - ERROR - Error transcribing audio: [Errno 2] No such file or directory: 'ffmpeg'
+2026-06-07 03:01:40,661 - app.api.agent_routes - WARNING - Transcription returned empty query
+2026-06-07 03:01:50,293 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-07 03:01:50,301 - app.agent.memory - INFO - Created new session 654705fb-e704-44c8-b76c-f7c76c1e4eeb for customer web_demo
+2026-06-07 03:01:50,303 - app.agent.memory - INFO - Loaded 0 messages for session 654705fb-e704-44c8-b76c-f7c76c1e4eeb
+2026-06-07 03:01:50,314 - app.agent.inbound_agent - INFO - Retrieving documents for: what is breakout
+2026-06-07 03:01:50,317 - app.rag.ingestion - ERROR - Error retrieving documents: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+2026-06-07 03:01:50,317 - app.rag.retriever - INFO - No documents retrieved for query: what is breakout
+2026-06-07 03:01:50,317 - app.agent.inbound_agent - INFO - Retrieved 0 documents
+2026-06-07 03:01:50,331 - app.agent.inbound_agent - ERROR - Error generating response: [Errno 61] Connection refused
+2026-06-07 03:01:50,332 - app.agent.inbound_agent - INFO - No relevant documents found; not escalating automatically.
+2026-06-07 03:01:50,333 - app.agent.inbound_agent - INFO - Query processed. Confidence: 0.85
+2026-06-07 03:01:50,337 - app.agent.memory - INFO - Added user message to session 654705fb-e704-44c8-b76c-f7c76c1e4eeb
+2026-06-07 03:01:50,338 - app.agent.memory - INFO - Added assistant message to session 654705fb-e704-44c8-b76c-f7c76c1e4eeb
+2026-06-07 03:02:10,303 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-07 03:02:10,306 - app.agent.memory - INFO - Created new session 97bd25bd-5d75-4f02-814d-a44d8248fd0b for customer web_demo
+2026-06-07 03:02:10,306 - app.agent.memory - INFO - Loaded 0 messages for session 97bd25bd-5d75-4f02-814d-a44d8248fd0b
+2026-06-07 03:02:10,306 - app.api.agent_routes - INFO - Transcribing audio...
+2026-06-07 03:02:10,317 - app.agent.voice_processor - ERROR - Fallback conversion with pydub failed: [Errno 2] No such file or directory: 'ffprobe'
+2026-06-07 03:02:10,324 - app.agent.voice_processor - ERROR - FFmpeg conversion failed: [Errno 2] No such file or directory: 'ffmpeg'
+2026-06-07 03:02:10,324 - app.agent.voice_processor - ERROR - Error transcribing audio: [Errno 2] No such file or directory: 'ffmpeg'
+2026-06-07 03:02:10,324 - app.api.agent_routes - WARNING - Transcription returned empty query
+2026-06-07 03:02:16,756 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-07 03:02:16,759 - app.agent.memory - INFO - Created new session 30952b5d-681b-494b-a2fc-f34632eefbb7 for customer web_demo
+2026-06-07 03:02:16,760 - app.agent.memory - INFO - Loaded 0 messages for session 30952b5d-681b-494b-a2fc-f34632eefbb7
+2026-06-07 03:02:16,762 - app.agent.inbound_agent - INFO - Retrieving documents for: what is breakout
+2026-06-07 03:03:12,653 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-07 03:03:14,112 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 03:03:14,112 - app.rag.retriever - INFO - Retrieved 5 documents with scores: [1.2882224321365356, 1.2882224321365356, 1.2882224321365356, 1.2882224321365356, 1.2882224321365356]
+2026-06-07 03:03:14,113 - app.agent.inbound_agent - INFO - Retrieved 5 documents
+2026-06-07 03:03:17,363 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-07 03:03:25,115 - app.agent.inbound_agent - INFO - Generated response: I couldn't find any information about "Breakout" in our company documents. It's possible that it mig
+2026-06-07 03:03:25,127 - app.agent.inbound_agent - INFO - Query processed. Confidence: 0.85
+2026-06-07 03:03:25,139 - app.agent.memory - INFO - Added user message to session 30952b5d-681b-494b-a2fc-f34632eefbb7
+2026-06-07 03:03:25,143 - app.agent.memory - INFO - Added assistant message to session 30952b5d-681b-494b-a2fc-f34632eefbb7
+2026-06-07 03:05:28,362 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-07 03:05:32,112 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 03:05:32,113 - app.main - INFO - Database initialized
+2026-06-07 03:05:55,845 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-07 03:05:59,310 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 03:05:59,311 - app.main - INFO - Database initialized
+2026-06-07 03:06:18,930 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-07 03:08:22,289 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 03:08:22,298 - app.main - INFO - Database initialized
+2026-06-07 03:08:28,906 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-06-07 03:08:29,076 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 03:08:29,081 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 03:08:29,094 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 03:08:29,095 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-07 03:08:29,095 - app.agent.voice_processor - INFO - Loading Whisper model: base
+2026-06-07 03:08:30,164 - app.agent.voice_processor - INFO - Whisper model base loaded successfully
+2026-06-07 03:08:30,164 - app.agent.voice_processor - INFO - Initializing Piper TTS with model: piper
+2026-06-07 03:08:30,171 - app.agent.memory - INFO - Created new session bdc81868-d1bd-443b-8f86-2b211051d43e for customer web_demo
+2026-06-07 03:08:30,173 - app.agent.memory - INFO - Loaded 0 messages for session bdc81868-d1bd-443b-8f86-2b211051d43e
+2026-06-07 03:08:30,173 - app.api.agent_routes - INFO - Transcribing audio...
+2026-06-07 03:08:40,370 - app.agent.voice_processor - ERROR - Error transcribing audio: name 'result' is not defined
+2026-06-07 03:08:40,370 - app.api.agent_routes - WARNING - Transcription returned empty query
+2026-06-07 03:11:45,003 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-07 03:11:45,015 - app.agent.memory - INFO - Created new session 0fee5a96-1c25-443c-b595-3c7bf749b10f for customer web_demo
+2026-06-07 03:11:45,016 - app.agent.memory - INFO - Loaded 0 messages for session 0fee5a96-1c25-443c-b595-3c7bf749b10f
+2026-06-07 03:11:45,028 - app.agent.inbound_agent - INFO - Retrieving documents for: Do I need to book in advance?
+2026-06-07 03:11:59,441 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-07 03:12:00,233 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 03:12:00,234 - app.rag.retriever - INFO - Retrieved 5 documents with scores: [0.771632194519043, 0.771632194519043, 0.771632194519043, 0.771632194519043, 0.7940214276313782]
+2026-06-07 03:12:00,234 - app.agent.inbound_agent - INFO - Retrieved 5 documents
+2026-06-07 03:12:02,926 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-07 03:12:19,449 - app.agent.inbound_agent - INFO - Generated response: Our documentation doesn't explicitly state that you must book in advance. However, we do have some s
+2026-06-07 03:12:19,467 - app.agent.inbound_agent - INFO - Query processed. Confidence: 0.85
+2026-06-07 03:12:19,524 - app.agent.memory - INFO - Added user message to session 0fee5a96-1c25-443c-b595-3c7bf749b10f
+2026-06-07 03:12:19,555 - app.agent.memory - INFO - Added assistant message to session 0fee5a96-1c25-443c-b595-3c7bf749b10f
+2026-06-07 03:13:40,355 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-07 03:13:51,242 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 03:13:51,247 - app.main - INFO - Database initialized
+2026-06-07 03:14:00,198 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-07 03:14:14,976 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 03:14:14,980 - app.main - INFO - Database initialized
+2026-06-07 03:14:20,306 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-06-07 03:14:21,257 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 03:14:21,298 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 03:14:21,368 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 03:14:21,371 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-07 03:14:22,673 - app.agent.memory - INFO - Created new session e627c5ed-dc23-41dd-a715-b15e54bcd424 for customer web_demo
+2026-06-07 03:14:22,684 - app.agent.memory - INFO - Loaded 0 messages for session e627c5ed-dc23-41dd-a715-b15e54bcd424
+2026-06-07 03:14:22,711 - app.agent.inbound_agent - INFO - Retrieving documents for: Do I need to book in advance?
+2026-06-07 03:14:31,168 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-07 03:14:31,739 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 03:14:31,739 - app.rag.retriever - INFO - Retrieved 5 documents with scores: [0.771632194519043, 0.771632194519043, 0.771632194519043, 0.771632194519043, 0.7940214276313782]
+2026-06-07 03:14:31,739 - app.agent.inbound_agent - INFO - Retrieved 5 documents
+2026-06-07 03:14:35,820 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-07 03:14:47,637 - app.agent.inbound_agent - INFO - Generated response: I couldn't find any information in the provided documents that suggests a requirement to book in adv
+2026-06-07 03:14:47,658 - app.agent.inbound_agent - INFO - Query processed. Confidence: 0.85
+2026-06-07 03:14:47,755 - app.agent.memory - INFO - Added user message to session e627c5ed-dc23-41dd-a715-b15e54bcd424
+2026-06-07 03:14:47,766 - app.agent.memory - INFO - Added assistant message to session e627c5ed-dc23-41dd-a715-b15e54bcd424
+2026-06-07 11:52:59,373 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-07 11:52:59,375 - app.agent.voice_processor - INFO - Loading Whisper model: base
+2026-06-07 11:53:00,562 - app.agent.voice_processor - INFO - Whisper model base loaded successfully
+2026-06-07 11:53:00,562 - app.agent.voice_processor - INFO - Initializing Piper TTS with model: piper
+2026-06-07 11:53:00,585 - app.agent.memory - INFO - Created new session 23cb37a0-bb66-455c-91cd-5dcbc8125eda for customer web_demo
+2026-06-07 11:53:00,586 - app.agent.memory - INFO - Loaded 0 messages for session 23cb37a0-bb66-455c-91cd-5dcbc8125eda
+2026-06-07 11:53:00,586 - app.api.agent_routes - INFO - Transcribing audio...
+2026-06-07 11:53:00,909 - app.agent.voice_processor - ERROR - Error transcribing audio: name 'result' is not defined
+2026-06-07 11:53:00,910 - app.api.agent_routes - WARNING - Transcription returned empty query
+2026-06-07 11:54:06,004 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-07 11:54:13,686 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 11:54:13,691 - app.main - INFO - Database initialized
+2026-06-07 11:54:20,871 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-07 11:54:25,506 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 11:54:25,510 - app.main - INFO - Database initialized
+2026-06-07 11:56:01,911 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-07 11:56:09,610 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 11:56:09,614 - app.main - INFO - Database initialized
+2026-06-07 12:18:11,317 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-07 12:18:14,760 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 12:18:14,765 - app.main - INFO - Database initialized
+2026-06-07 12:18:18,098 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-07 12:18:20,862 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 12:18:20,864 - app.main - INFO - Database initialized
+2026-06-07 12:19:43,306 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-06-07 12:19:43,468 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 12:19:43,473 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 12:19:43,486 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 12:19:43,487 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-07 12:19:43,487 - app.agent.voice_processor - INFO - Loading Whisper model: base
+2026-06-07 12:19:44,590 - app.agent.voice_processor - INFO - Whisper model base loaded successfully
+2026-06-07 12:19:44,590 - app.agent.voice_processor - INFO - Initializing Piper TTS with model: piper
+2026-06-07 12:19:44,597 - app.agent.memory - INFO - Created new session faad6f94-0d13-4707-add7-7d755a450ae7 for customer web_demo
+2026-06-07 12:19:44,599 - app.agent.memory - INFO - Loaded 0 messages for session faad6f94-0d13-4707-add7-7d755a450ae7
+2026-06-07 12:19:44,600 - app.api.agent_routes - INFO - Transcribing audio...
+2026-06-07 12:19:44,805 - app.agent.voice_processor - ERROR - Error transcribing audio: expected m1 and m2 to have the same dtype, but got: float != double
+2026-06-07 12:19:44,806 - app.api.agent_routes - WARNING - Transcription returned empty query
+2026-06-07 12:19:58,108 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-07 12:21:24,446 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 12:21:24,448 - app.main - INFO - Database initialized
+2026-06-07 12:21:44,253 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-06-07 12:21:44,407 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 12:21:44,411 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 12:21:44,424 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 12:21:44,426 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-07 12:21:44,426 - app.agent.voice_processor - INFO - Loading Whisper model: base
+2026-06-07 12:21:45,476 - app.agent.voice_processor - INFO - Whisper model base loaded successfully
+2026-06-07 12:21:45,476 - app.agent.voice_processor - INFO - Initializing Piper TTS with model: piper
+2026-06-07 12:21:45,484 - app.agent.memory - INFO - Created new session 2eaf34b6-dc21-463c-bf34-3a2525bb3018 for customer web_demo
+2026-06-07 12:21:45,486 - app.agent.memory - INFO - Loaded 0 messages for session 2eaf34b6-dc21-463c-bf34-3a2525bb3018
+2026-06-07 12:21:45,486 - app.api.agent_routes - INFO - Transcribing audio...
+2026-06-07 12:21:45,671 - app.agent.voice_processor - ERROR - Error transcribing audio: expected m1 and m2 to have the same dtype, but got: float != double
+2026-06-07 12:21:45,672 - app.api.agent_routes - WARNING - Transcription returned empty query
+2026-06-07 12:27:26,021 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-07 12:27:26,042 - app.agent.memory - INFO - Created new session ce468ae8-5375-4f5b-9ef1-0e2d9d3d6b5d for customer web_demo
+2026-06-07 12:27:26,043 - app.agent.memory - INFO - Loaded 0 messages for session ce468ae8-5375-4f5b-9ef1-0e2d9d3d6b5d
+2026-06-07 12:27:26,058 - app.agent.inbound_agent - INFO - Retrieving documents for: what is breakout
+2026-06-07 12:27:44,336 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-07 12:27:45,124 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 12:27:45,125 - app.rag.retriever - INFO - Retrieved 5 documents with scores: [1.2882224321365356, 1.2882224321365356, 1.2882224321365356, 1.2882224321365356, 1.2882224321365356]
+2026-06-07 12:27:45,126 - app.agent.inbound_agent - INFO - Retrieved 5 documents
+2026-06-07 12:27:49,160 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-07 12:27:54,315 - app.agent.inbound_agent - INFO - Generated response: I couldn't find any relevant information on "Breakout" in the provided documents. Could you please p
+2026-06-07 12:27:54,322 - app.agent.inbound_agent - INFO - Query processed. Confidence: 0.85
+2026-06-07 12:27:54,348 - app.agent.memory - INFO - Added user message to session ce468ae8-5375-4f5b-9ef1-0e2d9d3d6b5d
+2026-06-07 12:27:54,351 - app.agent.memory - INFO - Added assistant message to session ce468ae8-5375-4f5b-9ef1-0e2d9d3d6b5d
+2026-06-07 12:30:19,516 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-07 12:30:19,542 - app.agent.memory - INFO - Created new session 9b0c4323-556d-489c-9d78-b28c02b405f2 for customer web_demo
+2026-06-07 12:30:19,544 - app.agent.memory - INFO - Loaded 0 messages for session 9b0c4323-556d-489c-9d78-b28c02b405f2
+2026-06-07 12:30:19,549 - app.agent.inbound_agent - INFO - Retrieving documents for: What is your cancellation policy?
+2026-06-07 12:30:29,820 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-07 12:30:29,853 - app.rag.retriever - INFO - Retrieved 5 documents with scores: [0.5961489677429199, 0.5961489677429199, 0.5961489677429199, 0.5961489677429199, 0.5961489677429199]
+2026-06-07 12:30:29,853 - app.agent.inbound_agent - INFO - Retrieved 5 documents
+2026-06-07 12:30:37,012 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-07 12:30:51,280 - app.agent.inbound_agent - INFO - Generated response: I couldn't find any relevant information on a cancellation policy in the provided documents. However
+2026-06-07 12:30:51,289 - app.agent.inbound_agent - INFO - Query processed. Confidence: 0.85
+2026-06-07 12:30:51,298 - app.agent.memory - INFO - Added user message to session 9b0c4323-556d-489c-9d78-b28c02b405f2
+2026-06-07 12:30:51,303 - app.agent.memory - INFO - Added assistant message to session 9b0c4323-556d-489c-9d78-b28c02b405f2
+2026-06-07 12:31:03,285 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-07 12:31:03,298 - app.agent.memory - INFO - Created new session 3b8e9af9-cb05-4378-9a9b-9d85cf310fbb for customer web_demo
+2026-06-07 12:31:03,300 - app.agent.memory - INFO - Loaded 0 messages for session 3b8e9af9-cb05-4378-9a9b-9d85cf310fbb
+2026-06-07 12:31:03,308 - app.agent.inbound_agent - INFO - Retrieving documents for: What is your cancellation policy?
+2026-06-07 12:31:08,299 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-07 12:31:08,325 - app.rag.retriever - INFO - Retrieved 5 documents with scores: [0.5961489677429199, 0.5961489677429199, 0.5961489677429199, 0.5961489677429199, 0.5961489677429199]
+2026-06-07 12:31:08,325 - app.agent.inbound_agent - INFO - Retrieved 5 documents
+2026-06-07 12:31:13,578 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-07 12:31:21,518 - app.agent.inbound_agent - INFO - Generated response: I couldn't find any relevant information on a cancellation policy in the provided documents. The Ref
+2026-06-07 12:31:21,534 - app.agent.inbound_agent - INFO - Query processed. Confidence: 0.85
+2026-06-07 12:31:21,552 - app.agent.memory - INFO - Added user message to session 3b8e9af9-cb05-4378-9a9b-9d85cf310fbb
+2026-06-07 12:31:21,562 - app.agent.memory - INFO - Added assistant message to session 3b8e9af9-cb05-4378-9a9b-9d85cf310fbb
+2026-06-07 12:31:33,489 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-07 12:31:38,228 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 12:31:38,230 - app.main - INFO - Database initialized
+2026-06-07 12:31:41,871 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-07 12:31:44,879 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 12:31:44,881 - app.main - INFO - Database initialized
+2026-06-07 12:35:33,528 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-07 12:35:37,152 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 12:35:37,153 - app.main - INFO - Database initialized
+2026-06-07 12:35:38,569 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-07 12:35:41,788 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 12:35:41,791 - app.main - INFO - Database initialized
+2026-06-07 12:35:46,134 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-07 12:35:49,376 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 12:35:49,378 - app.main - INFO - Database initialized
+2026-06-07 12:36:16,357 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-07 12:36:19,727 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 12:36:19,728 - app.main - INFO - Database initialized
+2026-06-07 12:37:09,756 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-06-07 12:37:09,922 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 12:37:09,926 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 12:37:09,939 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 12:37:09,941 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-07 12:37:10,038 - app.agent.memory - INFO - Created new session fb3b5a2d-e590-416a-9c2a-5055f7a853d1 for customer web_demo
+2026-06-07 12:37:10,041 - app.agent.memory - INFO - Loaded 0 messages for session fb3b5a2d-e590-416a-9c2a-5055f7a853d1
+2026-06-07 12:37:10,047 - app.agent.inbound_agent - INFO - Retrieving documents for: What is your cancellation policy?
+2026-06-07 12:37:20,591 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-07 12:37:20,615 - app.agent.memory - INFO - Created new session dfb973bd-9f82-488c-b8ed-4675003c594e for customer web_demo
+2026-06-07 12:37:20,620 - app.agent.memory - INFO - Loaded 0 messages for session dfb973bd-9f82-488c-b8ed-4675003c594e
+2026-06-07 12:37:20,626 - app.agent.inbound_agent - INFO - Retrieving documents for: What is your cancellation policy?
+2026-06-07 12:37:21,794 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-07 12:37:21,811 - app.agent.memory - INFO - Created new session 1a7180c6-8868-457d-a00f-5e830abeeba0 for customer web_demo
+2026-06-07 12:37:21,813 - app.agent.memory - INFO - Loaded 0 messages for session 1a7180c6-8868-457d-a00f-5e830abeeba0
+2026-06-07 12:37:21,815 - app.agent.inbound_agent - INFO - Retrieving documents for: What is your cancellation policy?
+2026-06-07 12:37:28,183 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-07 12:37:28,283 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-07 12:37:28,703 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-07 12:37:28,933 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 12:37:28,933 - app.rag.retriever - INFO - Retrieved 5 documents with scores: [0.5961489677429199, 0.5961489677429199, 0.5961489677429199, 0.5961489677429199, 0.5961489677429199]
+2026-06-07 12:37:28,933 - app.rag.retriever - INFO - Retrieved 5 documents with scores: [0.5961489677429199, 0.5961489677429199, 0.5961489677429199, 0.5961489677429199, 0.5961489677429199]
+2026-06-07 12:37:28,933 - app.agent.inbound_agent - INFO - Retrieved 5 documents
+2026-06-07 12:37:28,934 - app.rag.retriever - INFO - Retrieved 5 documents with scores: [0.5961489677429199, 0.5961489677429199, 0.5961489677429199, 0.5961489677429199, 0.5961489677429199]
+2026-06-07 12:37:28,934 - app.agent.inbound_agent - INFO - Retrieved 5 documents
+2026-06-07 12:37:28,935 - app.agent.inbound_agent - INFO - Retrieved 5 documents
+2026-06-07 12:37:33,460 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-07 12:37:35,167 - app.agent.inbound_agent - INFO - Generated response: I couldn't find any relevant information on a cancellation policy in the provided documents.
+2026-06-07 12:37:35,169 - app.agent.inbound_agent - INFO - Overrode missing-info response with document excerpt.
+2026-06-07 12:37:35,183 - app.agent.inbound_agent - INFO - Query processed. Confidence: 0.85
+2026-06-07 12:37:35,209 - app.agent.memory - INFO - Added user message to session fb3b5a2d-e590-416a-9c2a-5055f7a853d1
+2026-06-07 12:37:35,215 - app.agent.memory - INFO - Added assistant message to session fb3b5a2d-e590-416a-9c2a-5055f7a853d1
+2026-06-07 12:37:35,286 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-07 12:37:37,146 - app.agent.inbound_agent - INFO - Generated response: I couldn't find any relevant information on our cancellation policy in the provided documents.
+2026-06-07 12:37:37,147 - app.agent.inbound_agent - INFO - Overrode missing-info response with document excerpt.
+2026-06-07 12:37:37,153 - app.agent.inbound_agent - INFO - Query processed. Confidence: 0.85
+2026-06-07 12:37:37,157 - app.agent.memory - INFO - Added user message to session 1a7180c6-8868-457d-a00f-5e830abeeba0
+2026-06-07 12:37:37,158 - app.agent.memory - INFO - Added assistant message to session 1a7180c6-8868-457d-a00f-5e830abeeba0
+2026-06-07 12:37:37,265 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-07 12:37:45,279 - app.agent.inbound_agent - INFO - Generated response: I couldn't find any relevant information on a cancellation policy in the provided documents. However
+2026-06-07 12:37:45,281 - app.agent.inbound_agent - INFO - Overrode missing-info response with document excerpt.
+2026-06-07 12:37:45,288 - app.agent.inbound_agent - INFO - Query processed. Confidence: 0.85
+2026-06-07 12:37:45,298 - app.agent.memory - INFO - Added user message to session dfb973bd-9f82-488c-b8ed-4675003c594e
+2026-06-07 12:37:45,302 - app.agent.memory - INFO - Added assistant message to session dfb973bd-9f82-488c-b8ed-4675003c594e
+2026-06-07 12:39:16,978 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-07 12:39:24,165 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 12:39:24,168 - app.main - INFO - Database initialized
+2026-06-07 12:39:39,735 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-06-07 12:39:39,890 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 12:39:39,895 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 12:39:39,908 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 12:39:39,909 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-07 12:39:40,005 - app.agent.memory - INFO - Created new session 48baf038-d48c-445e-be19-1c4ff19d41db for customer web_demo
+2026-06-07 12:39:40,007 - app.agent.memory - INFO - Loaded 0 messages for session 48baf038-d48c-445e-be19-1c4ff19d41db
+2026-06-07 12:39:40,012 - app.agent.inbound_agent - INFO - Retrieving documents for: what is the cancellation policy
+2026-06-07 12:39:55,963 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-07 12:39:57,129 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 12:39:57,130 - app.rag.retriever - INFO - Retrieved 5 documents with scores: [0.9002628326416016, 0.9002628326416016, 0.9002628326416016, 0.9002628326416016, 0.9002628326416016]
+2026-06-07 12:39:57,131 - app.agent.inbound_agent - INFO - Retrieved 5 documents
+2026-06-07 12:40:02,035 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-07 12:40:03,883 - app.agent.inbound_agent - INFO - Generated response: I couldn't find any relevant information on a cancellation policy in the provided documents.
+2026-06-07 12:40:03,889 - app.agent.inbound_agent - INFO - Query processed. Confidence: 0.85
+2026-06-07 12:40:03,909 - app.agent.memory - INFO - Added user message to session 48baf038-d48c-445e-be19-1c4ff19d41db
+2026-06-07 12:40:03,911 - app.agent.memory - INFO - Added assistant message to session 48baf038-d48c-445e-be19-1c4ff19d41db
+2026-06-07 12:40:31,222 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-07 12:40:31,222 - app.agent.voice_processor - INFO - Loading Whisper model: base
+2026-06-07 12:40:32,396 - app.agent.voice_processor - INFO - Whisper model base loaded successfully
+2026-06-07 12:40:32,396 - app.agent.voice_processor - INFO - Initializing Piper TTS with model: piper
+2026-06-07 12:40:32,405 - app.agent.memory - INFO - Created new session b35ff540-2e52-4773-8276-4570ec0b7cc4 for customer web_demo
+2026-06-07 12:40:32,406 - app.agent.memory - INFO - Loaded 0 messages for session b35ff540-2e52-4773-8276-4570ec0b7cc4
+2026-06-07 12:40:32,406 - app.api.agent_routes - INFO - Transcribing audio...
+2026-06-07 12:40:32,932 - app.agent.voice_processor - ERROR - Error transcribing audio: expected m1 and m2 to have the same dtype, but got: float != double
+2026-06-07 12:40:32,933 - app.api.agent_routes - WARNING - Transcription returned empty query
+2026-06-07 14:19:40,658 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-07 14:19:44,135 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 14:19:44,142 - app.main - INFO - Database initialized
+2026-06-07 14:19:57,074 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-07 14:19:59,100 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 14:19:59,101 - app.main - INFO - Database initialized
+2026-06-07 14:20:05,061 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-07 14:20:11,988 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 14:20:11,990 - app.main - INFO - Database initialized
+2026-06-07 14:20:20,893 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-06-07 14:20:21,050 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 14:20:21,052 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 14:20:21,066 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 14:20:21,070 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialised.
+2026-06-07 14:20:22,909 - app.agent.voice_processor - INFO - Loading Whisper model: base
+2026-06-07 14:20:24,114 - app.agent.voice_processor - INFO - Whisper model base ready.
+2026-06-07 14:20:24,114 - app.agent.voice_processor - INFO - TextToSpeech initialised (model=en_US-lessac-medium.onnx, sr=22050)
+2026-06-07 14:20:24,127 - app.agent.memory - INFO - Created new session 10ab64d6-4001-4760-8392-b06fd9250d9c for customer web_demo
+2026-06-07 14:20:24,130 - app.agent.memory - INFO - Loaded 0 messages for session 10ab64d6-4001-4760-8392-b06fd9250d9c
+2026-06-07 14:20:24,130 - app.api.agent_routes - INFO - Transcribing audio...
+2026-06-07 14:20:25,722 - app.agent.voice_processor - INFO - Transcribed [lang=en conf=0.85]: What is the cancellation policy?
+2026-06-07 14:20:25,723 - app.api.agent_routes - INFO - Transcribed: What is the cancellation policy?
+2026-06-07 14:20:42,560 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-07 14:20:43,084 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 14:20:43,085 - app.rag.retriever - INFO - Retrieved 5 documents with scores: [0.6138060688972473, 0.6138060688972473, 0.6138060688972473, 0.6138060688972473, 0.6415699124336243]
+2026-06-07 14:20:43,085 - app.agent.inbound_agent - INFO - Retrieved 5 documents.
+2026-06-07 14:20:45,900 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-07 14:20:50,471 - app.agent.inbound_agent - INFO - Confidence score: 0.90
+2026-06-07 14:20:50,478 - app.agent.inbound_agent - INFO - Query processed [session=80ce5ba9-f452-48ff-85d9-f840aa7f0a72 conf=0.90 escalated=False]
+2026-06-07 14:20:50,508 - app.agent.memory - INFO - Added user message to session 10ab64d6-4001-4760-8392-b06fd9250d9c
+2026-06-07 14:20:50,514 - app.agent.memory - INFO - Added assistant message to session 10ab64d6-4001-4760-8392-b06fd9250d9c
+2026-06-07 14:20:50,515 - app.api.agent_routes - INFO - Synthesizing speech...
+2026-06-07 14:20:50,516 - app.agent.voice_processor - INFO - Starting Piper process: piper --model en_US-lessac-medium.onnx --output-raw --quiet
+2026-06-07 14:20:50,849 - app.api.agent_routes - ERROR - TTS error: Piper process error: [Errno 2] No such file or directory: 'piper'
+2026-06-07 14:22:16,981 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-07 14:34:20,611 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 14:34:20,628 - app.main - INFO - Database initialized
+2026-06-07 14:36:02,697 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-06-07 14:36:03,257 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 14:36:03,267 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 14:36:03,304 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 14:36:03,310 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-07 14:36:14,272 - app.agent.voice_processor - INFO - Loading Whisper model: base
+2026-06-07 14:36:17,248 - app.agent.voice_processor - INFO - Whisper model base ready.
+2026-06-07 14:36:17,248 - app.agent.voice_processor - INFO - TextToSpeech initialised (model=en_US-lessac-medium.onnx, sr=22050)
+2026-06-07 14:36:17,314 - app.agent.memory - INFO - Created new session 8a5628dd-2bd0-4bc8-8cf3-e872f4e69707 for customer web_demo
+2026-06-07 14:36:17,327 - app.agent.memory - INFO - Loaded 0 messages for session 8a5628dd-2bd0-4bc8-8cf3-e872f4e69707
+2026-06-07 14:36:17,328 - app.api.agent_routes - INFO - Transcribing audio...
+2026-06-07 14:36:26,924 - app.agent.voice_processor - INFO - Transcribed [lang=en conf=0.85]: What is the refund policy?
+2026-06-07 14:36:26,926 - app.api.agent_routes - INFO - Transcribed: What is the refund policy?
+2026-06-07 14:36:26,927 - app.api.agent_routes - ERROR - Error processing voice query: 'CompiledStateGraph' object is not callable
+2026-06-07 14:38:35,285 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-07 14:38:50,523 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 14:38:50,563 - app.main - INFO - Database initialized
+2026-06-07 14:39:23,228 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-06-07 14:39:23,552 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 14:39:23,556 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 14:39:23,583 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 14:39:23,587 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-07 14:39:26,877 - app.agent.voice_processor - INFO - Loading Whisper model: base
+2026-06-07 14:39:28,569 - app.agent.voice_processor - INFO - Whisper model base ready.
+2026-06-07 14:39:28,570 - app.agent.voice_processor - INFO - TextToSpeech initialised (model=en_US-lessac-medium.onnx, sr=22050)
+2026-06-07 14:39:28,598 - app.agent.memory - INFO - Created new session e6c1dd99-20f8-42d1-b962-a4411b57e22f for customer web_demo
+2026-06-07 14:39:28,607 - app.agent.memory - INFO - Loaded 0 messages for session e6c1dd99-20f8-42d1-b962-a4411b57e22f
+2026-06-07 14:39:28,608 - app.api.agent_routes - INFO - Transcribing audio...
+2026-06-07 14:39:31,602 - app.agent.voice_processor - INFO - Transcribed [lang=en conf=0.85]: What is the refund policy?
+2026-06-07 14:39:31,602 - app.api.agent_routes - INFO - Transcribed: What is the refund policy?
+2026-06-07 14:39:31,617 - app.agent.inbound_agent - INFO - Retrieving documents for: What is the refund policy?
+2026-06-07 14:39:31,618 - app.api.agent_routes - ERROR - Error processing voice query: DocumentIngestionPipeline.retrieve_documents() got an unexpected keyword argument 'score_threshold'
+2026-06-07 14:40:21,026 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-07 14:40:37,677 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 14:40:37,680 - app.main - INFO - Database initialized
+2026-06-07 14:40:52,971 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-07 14:40:56,256 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 14:40:56,258 - app.main - INFO - Database initialized
+2026-06-07 14:41:05,554 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-06-07 14:41:05,759 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 14:41:05,762 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 14:41:05,779 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 14:41:05,781 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-07 14:41:07,634 - app.agent.voice_processor - INFO - Loading Whisper model: base
+2026-06-07 14:41:09,098 - app.agent.voice_processor - INFO - Whisper model base ready.
+2026-06-07 14:41:09,099 - app.agent.voice_processor - INFO - TextToSpeech initialised (model=en_US-lessac-medium.onnx, sr=22050)
+2026-06-07 14:41:09,113 - app.agent.memory - INFO - Created new session c39861f5-29ff-475a-a7ad-49b485a5a912 for customer web_demo
+2026-06-07 14:41:09,118 - app.agent.memory - INFO - Loaded 0 messages for session c39861f5-29ff-475a-a7ad-49b485a5a912
+2026-06-07 14:41:09,118 - app.api.agent_routes - INFO - Transcribing audio...
+2026-06-07 14:41:11,619 - app.agent.voice_processor - INFO - Transcribed [lang=en conf=0.85]: What is the refund policy?
+2026-06-07 14:41:11,619 - app.api.agent_routes - INFO - Transcribed: What is the refund policy?
+2026-06-07 14:41:11,630 - app.agent.inbound_agent - INFO - Retrieving documents for: What is the refund policy?
+2026-06-07 14:41:25,132 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-07 14:41:25,503 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 14:41:25,504 - app.rag.retriever - INFO - No documents retrieved for: 'What is the refund policy?'
+2026-06-07 14:41:25,504 - app.agent.inbound_agent - INFO - Retrieved 0 documents
+2026-06-07 14:41:26,104 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-07 14:41:26,506 - app.agent.inbound_agent - INFO - Generated response: I couldn't find any relevant information on the refund policy in the provided documents.
+2026-06-07 14:41:26,533 - app.agent.memory - INFO - Added user message to session c39861f5-29ff-475a-a7ad-49b485a5a912
+2026-06-07 14:41:26,534 - app.agent.memory - INFO - Added assistant message to session c39861f5-29ff-475a-a7ad-49b485a5a912
+2026-06-07 14:41:26,534 - app.api.agent_routes - INFO - Synthesizing speech...
+2026-06-07 14:41:26,534 - app.agent.voice_processor - INFO - Starting Piper process: piper --model en_US-lessac-medium.onnx --output-raw --quiet
+2026-06-07 14:41:26,743 - app.api.agent_routes - ERROR - TTS error: Piper process error: [Errno 2] No such file or directory: 'piper'
+2026-06-07 14:44:30,493 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-07 14:44:32,677 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 14:44:32,683 - app.main - INFO - Database initialized
+2026-06-07 14:44:38,953 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-07 14:46:51,572 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 14:46:51,586 - app.main - INFO - Database initialized
+2026-06-07 14:47:30,732 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-06-07 14:47:30,835 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 14:47:30,837 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 14:47:30,846 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 14:47:30,847 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-07 14:47:32,030 - app.agent.voice_processor - INFO - Loading Whisper model: base
+2026-06-07 14:47:32,686 - app.agent.voice_processor - INFO - Whisper model base ready.
+2026-06-07 14:47:32,686 - app.agent.voice_processor - INFO - TextToSpeech initialised (model=en_US-lessac-medium.onnx, sr=22050)
+2026-06-07 14:47:32,692 - app.agent.memory - INFO - Created new session 0d1b8edf-cea1-4c96-b66e-fc2b77978b3c for customer web_demo
+2026-06-07 14:47:32,695 - app.agent.memory - INFO - Loaded 0 messages for session 0d1b8edf-cea1-4c96-b66e-fc2b77978b3c
+2026-06-07 14:47:32,695 - app.api.agent_routes - INFO - Transcribing audio...
+2026-06-07 14:47:33,501 - app.agent.voice_processor - INFO - Transcribed [lang=en conf=0.85]: What is the refund policy?
+2026-06-07 14:47:33,501 - app.api.agent_routes - INFO - Transcribed: What is the refund policy?
+2026-06-07 14:47:33,505 - app.agent.inbound_agent - INFO - Retrieving documents for: What is the refund policy?
+2026-06-07 14:47:33,536 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 404 Not Found"
+2026-06-07 14:47:33,537 - app.rag.ingestion - ERROR - Retrieval error: model "nomic-embed-text" not found, try pulling it first (status code: 404)
+2026-06-07 14:47:33,537 - app.rag.retriever - INFO - No documents retrieved for: 'What is the refund policy?'
+2026-06-07 14:47:33,537 - app.agent.inbound_agent - INFO - Retrieved 0 documents
+2026-06-07 14:47:46,147 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-07 14:47:46,461 - app.agent.inbound_agent - INFO - Generated response: I couldn't find any relevant information on the refund policy in the provided documents.
+2026-06-07 14:47:46,475 - app.agent.memory - INFO - Added user message to session 0d1b8edf-cea1-4c96-b66e-fc2b77978b3c
+2026-06-07 14:47:46,478 - app.agent.memory - INFO - Added assistant message to session 0d1b8edf-cea1-4c96-b66e-fc2b77978b3c
+2026-06-07 14:47:46,478 - app.api.agent_routes - INFO - Synthesizing speech...
+2026-06-07 14:47:46,478 - app.agent.voice_processor - INFO - Starting Piper process: piper --model en_US-lessac-medium.onnx --output-raw --quiet
+2026-06-07 14:47:46,700 - app.api.agent_routes - ERROR - TTS error: Piper process error: [Errno 2] No such file or directory: 'piper'
+2026-06-07 14:48:02,079 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-07 14:48:02,088 - app.agent.memory - INFO - Created new session 9826b039-d6f5-40f1-b182-f6b44ec4000f for customer web_demo
+2026-06-07 14:48:02,090 - app.agent.memory - INFO - Loaded 0 messages for session 9826b039-d6f5-40f1-b182-f6b44ec4000f
+2026-06-07 14:48:02,090 - app.api.agent_routes - INFO - Transcribing audio...
+2026-06-07 14:48:05,120 - app.agent.voice_processor - INFO - Transcribed [lang=ms conf=0.85]: adalah wifi dengan pengaminak di record. setsaksur sentido untuk Newton ini
+2026-06-07 14:48:05,120 - app.api.agent_routes - INFO - Transcribed: adalah wifi dengan pengaminak di record. setsaksur sentido untuk Newton ini
+2026-06-07 14:48:05,122 - app.agent.inbound_agent - INFO - Retrieving documents for: adalah wifi dengan pengaminak di record. setsaksur sentido untuk Newton ini
+2026-06-07 14:48:05,140 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 404 Not Found"
+2026-06-07 14:48:05,140 - app.rag.ingestion - ERROR - Retrieval error: model "nomic-embed-text" not found, try pulling it first (status code: 404)
+2026-06-07 14:48:05,140 - app.rag.retriever - INFO - No documents retrieved for: 'adalah wifi dengan pengaminak di record. setsaksur sentido untuk Newton ini'
+2026-06-07 14:48:05,140 - app.agent.inbound_agent - INFO - Retrieved 0 documents
+2026-06-07 14:48:10,791 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-07 14:48:11,365 - app.agent.inbound_agent - INFO - Generated response: Saya tidak bisa menemukan informasi yang relevan tentang topik ini dalam dokumen yang tersedia.
+2026-06-07 14:48:11,372 - app.agent.memory - INFO - Added user message to session 9826b039-d6f5-40f1-b182-f6b44ec4000f
+2026-06-07 14:48:11,374 - app.agent.memory - INFO - Added assistant message to session 9826b039-d6f5-40f1-b182-f6b44ec4000f
+2026-06-07 14:48:11,374 - app.api.agent_routes - INFO - Synthesizing speech...
+2026-06-07 14:48:11,374 - app.agent.voice_processor - INFO - Starting Piper process: piper --model en_US-lessac-medium.onnx --output-raw --quiet
+2026-06-07 14:48:11,406 - app.api.agent_routes - ERROR - TTS error: Piper process error: [Errno 2] No such file or directory: 'piper'
+2026-06-07 14:49:44,932 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-07 14:49:46,538 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 14:49:46,539 - app.main - INFO - Database initialized
+2026-06-07 14:49:47,449 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-07 14:49:48,355 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 14:49:48,356 - app.main - INFO - Database initialized
+2026-06-07 14:49:49,367 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-07 14:49:50,254 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 14:49:50,255 - app.main - INFO - Database initialized
+2026-06-07 14:49:51,568 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-07 14:49:52,475 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 14:49:52,476 - app.main - INFO - Database initialized
+2026-06-07 14:49:57,020 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-07 14:49:57,887 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 14:49:57,888 - app.main - INFO - Database initialized
+2026-06-07 14:49:58,697 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-07 14:49:59,627 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 14:49:59,627 - app.main - INFO - Database initialized
+2026-06-07 14:50:26,863 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-06-07 14:50:26,963 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 14:50:26,965 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 14:50:26,973 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 14:50:26,974 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-07 14:50:28,157 - app.agent.voice_processor - INFO - Loading Whisper model: base
+2026-06-07 14:50:28,822 - app.agent.voice_processor - INFO - Whisper model base ready.
+2026-06-07 14:50:28,822 - app.agent.voice_processor - INFO - TextToSpeech initialised (model=en_US-lessac-medium.onnx, sr=22050)
+2026-06-07 14:50:28,828 - app.agent.memory - INFO - Created new session 767dfeea-8955-4b39-9216-f4367e36cdc4 for customer web_demo
+2026-06-07 14:50:28,830 - app.agent.memory - INFO - Loaded 0 messages for session 767dfeea-8955-4b39-9216-f4367e36cdc4
+2026-06-07 14:50:28,830 - app.api.agent_routes - INFO - Transcribing audio...
+2026-06-07 14:50:29,599 - app.agent.voice_processor - INFO - Transcribed [lang=en conf=0.85]: What is the refund policy?
+2026-06-07 14:50:29,599 - app.api.agent_routes - INFO - Transcribed: What is the refund policy?
+2026-06-07 14:50:29,603 - app.agent.inbound_agent - INFO - Retrieving documents for: What is the refund policy?
+2026-06-07 14:50:29,616 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 404 Not Found"
+2026-06-07 14:50:29,616 - app.rag.ingestion - ERROR - Retrieval error: model "nomic-embed-text" not found, try pulling it first (status code: 404)
+2026-06-07 14:50:29,617 - app.rag.retriever - INFO - No documents retrieved for: 'What is the refund policy?'
+2026-06-07 14:50:29,617 - app.agent.inbound_agent - INFO - Retrieved 0 documents
+2026-06-07 14:50:36,429 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-07 14:50:36,842 - app.agent.inbound_agent - INFO - Generated response: I couldn't find any relevant information on a refund policy in the provided documents.
+2026-06-07 14:50:36,852 - app.agent.memory - INFO - Added user message to session 767dfeea-8955-4b39-9216-f4367e36cdc4
+2026-06-07 14:50:36,854 - app.agent.memory - INFO - Added assistant message to session 767dfeea-8955-4b39-9216-f4367e36cdc4
+2026-06-07 14:50:36,854 - app.api.agent_routes - INFO - Synthesizing speech...
+2026-06-07 14:50:36,854 - app.agent.voice_processor - INFO - Starting Piper process: piper --model en_US-lessac-medium.onnx --output-raw --quiet
+2026-06-07 14:50:36,926 - app.api.agent_routes - ERROR - TTS error: Piper process error: [Errno 2] No such file or directory: 'piper'
+2026-06-07 14:50:43,464 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-07 14:50:43,471 - app.agent.memory - INFO - Created new session a452cb30-1bea-4f37-ac79-91f3fdbe127b for customer web_demo
+2026-06-07 14:50:43,472 - app.agent.memory - INFO - Loaded 0 messages for session a452cb30-1bea-4f37-ac79-91f3fdbe127b
+2026-06-07 14:50:43,473 - app.api.agent_routes - INFO - Transcribing audio...
+2026-06-07 14:50:44,238 - app.agent.voice_processor - INFO - Transcribed [lang=en conf=0.85]: can we bring our own decoration?
+2026-06-07 14:50:44,238 - app.api.agent_routes - INFO - Transcribed: can we bring our own decoration?
+2026-06-07 14:50:44,240 - app.agent.inbound_agent - INFO - Retrieving documents for: can we bring our own decoration?
+2026-06-07 14:50:44,256 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 404 Not Found"
+2026-06-07 14:50:44,256 - app.rag.ingestion - ERROR - Retrieval error: model "nomic-embed-text" not found, try pulling it first (status code: 404)
+2026-06-07 14:50:44,256 - app.rag.retriever - INFO - No documents retrieved for: 'can we bring our own decoration?'
+2026-06-07 14:50:44,256 - app.agent.inbound_agent - INFO - Retrieved 0 documents
+2026-06-07 14:50:45,996 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-07 14:50:46,329 - app.agent.inbound_agent - INFO - Generated response: I couldn't find any relevant information in the provided documents.
+2026-06-07 14:50:46,338 - app.agent.memory - INFO - Added user message to session a452cb30-1bea-4f37-ac79-91f3fdbe127b
+2026-06-07 14:50:46,340 - app.agent.memory - INFO - Added assistant message to session a452cb30-1bea-4f37-ac79-91f3fdbe127b
+2026-06-07 14:50:46,340 - app.api.agent_routes - INFO - Synthesizing speech...
+2026-06-07 14:50:46,340 - app.agent.voice_processor - INFO - Starting Piper process: piper --model en_US-lessac-medium.onnx --output-raw --quiet
+2026-06-07 14:50:46,348 - app.api.agent_routes - ERROR - TTS error: Piper process error: [Errno 2] No such file or directory: 'piper'
+2026-06-07 14:52:01,007 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-07 14:52:03,625 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 14:52:03,626 - app.main - INFO - Database initialized
+2026-06-07 14:53:02,323 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-07 14:53:03,774 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 14:53:03,775 - app.main - INFO - Database initialized
+2026-06-07 14:53:04,684 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-07 14:53:05,683 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 14:53:05,684 - app.main - INFO - Database initialized
+2026-06-07 14:53:57,832 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-07 14:53:59,162 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 14:53:59,163 - app.main - INFO - Database initialized
+2026-06-07 14:54:02,500 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-07 14:54:03,454 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 14:54:03,454 - app.main - INFO - Database initialized
+2026-06-07 14:54:11,327 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-07 14:54:12,289 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 14:54:12,290 - app.main - INFO - Database initialized
+2026-06-07 14:54:20,886 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-07 14:54:21,953 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 14:54:21,954 - app.main - INFO - Database initialized
+2026-06-07 14:54:33,872 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-07 14:55:10,088 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 14:55:10,100 - app.main - INFO - Database initialized
+2026-06-07 14:55:16,450 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-06-07 14:55:16,553 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 14:55:16,555 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 14:55:16,563 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 14:55:16,564 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-07 14:55:17,795 - app.agent.voice_processor - INFO - Loading Whisper model: base
+2026-06-07 14:55:18,456 - app.agent.voice_processor - INFO - Whisper model base ready.
+2026-06-07 14:55:18,456 - app.agent.voice_processor - INFO - TextToSpeech initialised (model=en_US-lessac-medium.onnx, sr=22050)
+2026-06-07 14:55:18,456 - app.api.agent_routes - WARNING - Piper is unavailable; returning text-only voice response.
+2026-06-07 14:55:18,462 - app.agent.memory - INFO - Created new session e315ea00-3f79-4daa-8b4d-a068fc621d12 for customer web_demo
+2026-06-07 14:55:18,465 - app.agent.memory - INFO - Loaded 0 messages for session e315ea00-3f79-4daa-8b4d-a068fc621d12
+2026-06-07 14:55:18,465 - app.api.agent_routes - INFO - Transcribing audio...
+2026-06-07 14:55:19,270 - app.agent.voice_processor - INFO - Transcribed [lang=en conf=0.85]: Can we bring our own decoration?
+2026-06-07 14:55:19,270 - app.api.agent_routes - INFO - Transcribed: Can we bring our own decoration?
+2026-06-07 14:55:19,275 - app.agent.inbound_agent - INFO - Retrieving documents for: Can we bring our own decoration?
+2026-06-07 14:55:31,021 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-07 14:55:32,342 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 14:55:35,873 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-07 14:55:35,902 - app.rag.ingestion - INFO - All 5 chunks exceeded score threshold 0.30 — returning top 5 anyway.
+2026-06-07 14:55:35,907 - app.agent.inbound_agent - INFO - Retrieved 5 documents
+2026-06-07 14:55:38,469 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-07 14:55:38,919 - app.agent.inbound_agent - INFO - Generated response: I couldn't find any relevant information in the provided documents about bringing your own decoratio
+2026-06-07 14:55:39,033 - app.agent.memory - INFO - Added user message to session e315ea00-3f79-4daa-8b4d-a068fc621d12
+2026-06-07 14:55:39,036 - app.agent.memory - INFO - Added assistant message to session e315ea00-3f79-4daa-8b4d-a068fc621d12
+2026-06-07 14:55:39,036 - app.api.agent_routes - INFO - Synthesizing speech...
+2026-06-07 14:55:39,036 - app.api.agent_routes - WARNING - Piper unavailable; returning text-only voice response.
+2026-06-07 14:59:21,329 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-07 14:59:23,191 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 14:59:23,197 - app.main - INFO - Database initialized
+2026-06-07 14:59:49,968 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-07 14:59:52,415 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 14:59:52,416 - app.main - INFO - Database initialized
+2026-06-07 14:59:58,918 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-06-07 14:59:59,019 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 14:59:59,020 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 14:59:59,029 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 14:59:59,030 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-07 15:00:00,251 - app.agent.voice_processor - INFO - Loading Whisper model: base
+2026-06-07 15:00:00,967 - app.agent.voice_processor - INFO - Whisper model base ready.
+2026-06-07 15:00:00,967 - app.agent.voice_processor - INFO - TextToSpeech initialised (model=en_US-lessac-medium.onnx, sr=22050)
+2026-06-07 15:00:00,967 - app.api.agent_routes - WARNING - Piper is unavailable; returning text-only voice response.
+2026-06-07 15:00:00,973 - app.agent.memory - INFO - Created new session af9a57ee-b42c-4240-aa8c-e9e94a9cfea0 for customer web_demo
+2026-06-07 15:00:00,976 - app.agent.memory - INFO - Loaded 0 messages for session af9a57ee-b42c-4240-aa8c-e9e94a9cfea0
+2026-06-07 15:00:00,976 - app.api.agent_routes - INFO - Transcribing audio...
+2026-06-07 15:00:01,894 - app.agent.voice_processor - INFO - Transcribed [lang=en conf=0.85]: Can we bring our own decoration?
+2026-06-07 15:00:01,894 - app.api.agent_routes - INFO - Transcribed: Can we bring our own decoration?
+2026-06-07 15:00:01,899 - app.agent.inbound_agent - INFO - Retrieving documents for: Can we bring our own decoration?
+2026-06-07 15:00:14,594 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-07 15:00:15,022 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 15:00:15,216 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-07 15:00:15,219 - app.rag.ingestion - INFO - All 5 chunks exceeded score threshold 0.30 — returning top 5 anyway.
+2026-06-07 15:00:15,219 - app.agent.inbound_agent - INFO - Retrieved 5 documents
+2026-06-07 15:00:17,641 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-07 15:00:18,314 - app.agent.inbound_agent - INFO - Generated response: I couldn't find any relevant information in the provided documents regarding bringing your own decor
+2026-06-07 15:00:18,332 - app.agent.memory - INFO - Added user message to session af9a57ee-b42c-4240-aa8c-e9e94a9cfea0
+2026-06-07 15:00:18,335 - app.agent.memory - INFO - Added assistant message to session af9a57ee-b42c-4240-aa8c-e9e94a9cfea0
+2026-06-07 15:00:18,335 - app.api.agent_routes - INFO - Synthesizing speech...
+2026-06-07 15:00:18,335 - app.api.agent_routes - WARNING - Piper unavailable; returning text-only voice response.
+2026-06-07 15:00:51,537 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-07 15:00:53,218 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 15:00:53,219 - app.main - INFO - Database initialized
+2026-06-07 15:00:53,827 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-07 15:00:54,832 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 15:00:54,833 - app.main - INFO - Database initialized
+2026-06-07 15:01:16,799 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-06-07 15:01:16,899 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 15:01:16,900 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 15:01:16,909 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 15:01:16,910 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-07 15:01:18,108 - app.agent.voice_processor - INFO - Loading Whisper model: base
+2026-06-07 15:01:18,796 - app.agent.voice_processor - INFO - Whisper model base ready.
+2026-06-07 15:01:18,796 - app.agent.voice_processor - INFO - TextToSpeech initialised (model=en_US-lessac-medium.onnx, sr=22050)
+2026-06-07 15:01:18,796 - app.api.agent_routes - WARNING - Piper is unavailable; returning text-only voice response.
+2026-06-07 15:01:18,802 - app.agent.memory - INFO - Created new session 44c7ac32-660b-4f1e-a3c5-a908a8067aec for customer web_demo
+2026-06-07 15:01:18,804 - app.agent.memory - INFO - Loaded 0 messages for session 44c7ac32-660b-4f1e-a3c5-a908a8067aec
+2026-06-07 15:01:18,804 - app.api.agent_routes - INFO - Transcribing audio...
+2026-06-07 15:01:19,700 - app.agent.voice_processor - INFO - Transcribed [lang=en conf=0.85]: can we bring our own decoration?
+2026-06-07 15:01:19,701 - app.api.agent_routes - INFO - Transcribed: can we bring our own decoration?
+2026-06-07 15:01:19,706 - app.agent.inbound_agent - INFO - Retrieving documents for: can we bring our own decoration?
+2026-06-07 15:01:27,418 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-07 15:01:28,160 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 15:01:28,359 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-07 15:01:28,363 - app.rag.ingestion - INFO - All 5 chunks exceeded score threshold 0.30 — returning top 5 anyway.
+2026-06-07 15:01:28,363 - app.agent.inbound_agent - INFO - Retrieved 5 documents
+2026-06-07 15:01:30,934 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-07 15:01:34,990 - app.agent.inbound_agent - INFO - Generated response: I couldn't find any information in the provided documents about bringing your own decorations. The d
+2026-06-07 15:01:34,991 - app.agent.inbound_agent - INFO - Overrode missing-info response with document excerpt.
+2026-06-07 15:01:35,008 - app.agent.memory - INFO - Added user message to session 44c7ac32-660b-4f1e-a3c5-a908a8067aec
+2026-06-07 15:01:35,010 - app.agent.memory - INFO - Added assistant message to session 44c7ac32-660b-4f1e-a3c5-a908a8067aec
+2026-06-07 15:01:35,011 - app.api.agent_routes - INFO - Synthesizing speech...
+2026-06-07 15:01:35,011 - app.api.agent_routes - WARNING - Piper unavailable; returning text-only voice response.
+2026-06-07 15:07:36,137 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-07 15:07:39,661 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-07 15:07:39,667 - app.main - INFO - Database initialized
+2026-06-07 15:07:43,682 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-06-07 15:07:43,782 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 15:07:43,784 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 15:07:43,792 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 15:07:43,793 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-07 15:07:44,862 - app.agent.voice_processor - INFO - Loading Whisper model: base
+2026-06-07 15:07:45,507 - app.agent.voice_processor - INFO - Whisper model base ready.
+2026-06-07 15:07:45,507 - app.agent.voice_processor - INFO - TextToSpeech initialised (model=en_US-lessac-medium.onnx, sr=22050)
+2026-06-07 15:07:45,507 - app.api.agent_routes - WARNING - Piper is unavailable; returning text-only voice response.
+2026-06-07 15:07:45,515 - app.agent.memory - INFO - Created new session 4f673677-2ecb-406c-ba3a-4c88f405fc4e for customer web_demo
+2026-06-07 15:07:45,517 - app.agent.memory - INFO - Loaded 0 messages for session 4f673677-2ecb-406c-ba3a-4c88f405fc4e
+2026-06-07 15:07:45,517 - app.api.agent_routes - INFO - Transcribing audio...
+2026-06-07 15:07:46,396 - app.agent.voice_processor - INFO - Transcribed [lang=en conf=0.85]: Can we bring our own decoration?
+2026-06-07 15:07:46,396 - app.api.agent_routes - INFO - Transcribed: Can we bring our own decoration?
+2026-06-07 15:07:46,401 - app.agent.inbound_agent - INFO - Retrieving documents for: Can we bring our own decoration?
+2026-06-07 15:08:01,817 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-07 15:08:02,538 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-06-07 15:08:02,741 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-07 15:08:02,744 - app.rag.ingestion - INFO - All 5 chunks exceeded score threshold 0.30 — returning top 5 anyway.
+2026-06-07 15:08:02,744 - app.agent.inbound_agent - INFO - Retrieved 5 documents
+2026-06-07 15:08:04,852 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-07 15:08:05,357 - app.agent.inbound_agent - INFO - Generated response: I couldn't find any relevant information in the provided documents about bringing your own decoratio
+2026-06-07 15:08:05,358 - app.agent.inbound_agent - INFO - Overrode missing-info response with document excerpt.
+2026-06-07 15:08:05,371 - app.agent.memory - INFO - Added user message to session 4f673677-2ecb-406c-ba3a-4c88f405fc4e
+2026-06-07 15:08:05,372 - app.agent.memory - INFO - Added assistant message to session 4f673677-2ecb-406c-ba3a-4c88f405fc4e
+2026-06-07 15:08:05,372 - app.api.agent_routes - INFO - Synthesizing speech...
+2026-06-07 15:08:05,372 - app.api.agent_routes - WARNING - Piper unavailable; returning text-only voice response.
+2026-06-07 15:10:21,777 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-07 15:10:21,778 - app.api.agent_routes - WARNING - Piper is unavailable; returning text-only voice response.
+2026-06-07 15:10:21,784 - app.agent.memory - INFO - Created new session b897deef-0d36-4441-a6a9-2a7fae8d6051 for customer web_demo
+2026-06-07 15:10:21,785 - app.agent.memory - INFO - Loaded 0 messages for session b897deef-0d36-4441-a6a9-2a7fae8d6051
+2026-06-07 15:10:21,785 - app.api.agent_routes - INFO - Transcribing audio...
+2026-06-07 15:10:22,565 - app.agent.voice_processor - INFO - Transcribed [lang=en conf=0.85]: Can we bring our own decoration?
+2026-06-07 15:10:22,565 - app.api.agent_routes - INFO - Transcribed: Can we bring our own decoration?
+2026-06-07 15:10:22,571 - app.agent.inbound_agent - INFO - Retrieving documents for: Can we bring our own decoration?
+2026-06-07 15:10:31,433 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-07 15:10:31,629 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-07 15:10:31,632 - app.rag.ingestion - INFO - All 5 chunks exceeded score threshold 0.30 — returning top 5 anyway.
+2026-06-07 15:10:31,632 - app.agent.inbound_agent - INFO - Retrieved 5 documents
+2026-06-07 15:10:33,450 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-07 15:10:33,893 - app.agent.inbound_agent - INFO - Generated response: I couldn't find any relevant information in the provided documents regarding bringing your own decor
+2026-06-07 15:10:33,893 - app.agent.inbound_agent - INFO - Overrode missing-info response with document excerpt.
+2026-06-07 15:10:33,911 - app.agent.memory - INFO - Added user message to session b897deef-0d36-4441-a6a9-2a7fae8d6051
+2026-06-07 15:10:33,914 - app.agent.memory - INFO - Added assistant message to session b897deef-0d36-4441-a6a9-2a7fae8d6051
+2026-06-07 15:10:33,914 - app.api.agent_routes - INFO - Synthesizing speech...
+2026-06-07 15:10:33,914 - app.api.agent_routes - WARNING - Piper unavailable; returning text-only voice response.
+2026-06-07 15:15:05,930 - app.main - INFO - Shutting down Inbound Voice Agent...

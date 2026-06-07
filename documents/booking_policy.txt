@@ -1,0 +1,58 @@
+# Company Booking Policy
+
+## Overview
+This document outlines the booking procedures, requirements, and policies for our event and service booking system.
+
+## Required Documents for Booking
+
+### Primary Documents
+1. **Valid ID Proof**: Government-issued identification such as passport, driver's license, or national ID card
+2. **Booking Form**: Completed and signed booking form with all required details
+3. **Advance Payment Receipt**: Proof of advance payment (typically 30% of total amount)
+4. **Event Details**: Comprehensive information about the event including date, time, location, and number of attendees
+
+### Supporting Documents (if applicable)
+- Company registration documents (for corporate bookings)
+- Authorization letter (for third-party bookings)
+- Special requirements documentation (dietary, accessibility, etc.)
+
+## Booking Process
+
+### Step 1: Initial Inquiry
+Contact our booking team with your event requirements. We will provide you with a quotation and availability confirmation.
+
+### Step 2: Booking Form Submission
+Submit the completed booking form along with all required documents.
+
+### Step 3: Advance Payment
+Pay the 30% advance payment as per the quotation. This amount is non-refundable but can be adjusted towards your final invoice.
+
+### Step 4: Confirmation
+Once payment is received and documents are verified, you will receive a booking confirmation email with all details.
+
+### Step 5: Final Payment
+Pay the remaining 70% of the amount at least 7 days before the event.
+
+## Cancellation Policy
+
+- Cancellation more than 30 days before the event: Full refund of advance payment
+- Cancellation 15-30 days before the event: 50% refund of advance payment
+- Cancellation less than 15 days before the event: No refund
+
+## Rescheduling
+
+You can reschedule your event free of charge if requested at least 30 days before the original date.
+
+## Payment Methods
+
+We accept the following payment methods:
+- Bank Transfer
+- Credit/Debit Cards (Visa, Mastercard)
+- Mobile Wallets (Apple Pay, Google Pay)
+- Check (with 5% additional processing fee)
+
+## Contact Information
+
+**Booking Team Email**: bookings@company.com
+**Phone**: +1-800-BOOKINGS
+**Office Hours**: Monday - Friday, 9 AM - 6 PM (EST)

@@ -1,0 +1,231 @@
+[
+  {
+    "name": "General Information",
+    "customer_id": "cust_001",
+    "session_id": "24c94b4d-bb53-497d-8480-e1bc136f7cf7",
+    "timestamp": "2026-06-06T19:24:27.854345",
+    "exchanges": [
+      {
+        "customer": "What is Breakout?",
+        "agent": "I'm not familiar with \"Breakout\" being a specific product or service offered by our company. Can you please provide more context or information about what you're looking for? I'd be happy to try and help you find the answer in our available documentation. \n\nHowever, I can tell you that we do have some classified games that feature an elite CIA Delta Force operative on a high-stakes mission to rescue Agent Emily and unravel the chilling mystery behind vanishing psychopaths. If this is what you're looking for, please let me know and I'll be happy to provide more information.",
+        "confidence": 0.85,
+        "escalated": false,
+        "expected_topics": [
+          "escape room",
+          "real-life",
+          "puzzles",
+          "storyline"
+        ],
+        "found_topics": [],
+        "topic_coverage": 0.0
+      },
+      {
+        "customer": "Are players actually locked inside?",
+        "agent": "I couldn't find any information in our documentation that suggests players are physically locked inside the game environment. The name \"Breakout\" seems to be related to a thrilling detective-style gameplay experience, where players take on the role of lead detectives and piece together clues to solve a mystery before time runs out.",
+        "confidence": 0.85,
+        "escalated": false,
+        "expected_topics": [
+          "not locked",
+          "staff monitor",
+          "assist"
+        ],
+        "found_topics": [],
+        "topic_coverage": 0.0
+      }
+    ]
+  },
+  {
+    "name": "Booking Information",
+    "customer_id": "cust_002",
+    "session_id": "e4f9a7f3-88ba-4e01-aee4-9a6cec556bfc",
+    "timestamp": "2026-06-06T19:24:53.406299",
+    "exchanges": [
+      {
+        "customer": "Do I need to book in advance?",
+        "agent": "Our policy doesn't explicitly state that you must book in advance, but it does mention a cancellation fee schedule. According to our documents, a cancellation fee applies if you cancel less than 3 days in advance.\n\nHowever, I do want to clarify that we might have specific requirements or recommendations for booking in advance, especially considering the number of people attending the event. Could you please provide more context or information about your event?",
+        "confidence": 0.85,
+        "escalated": false,
+        "expected_topics": [
+          "online booking",
+          "advance booking",
+          "required"
+        ],
+        "found_topics": [],
+        "topic_coverage": 0.0
+      },
+      {
+        "customer": "Can I walk in without booking?",
+        "agent": "Our policy doesn't explicitly state that you must book in advance, but it does mention a cancellation fee schedule. According to our documents, a cancellation fee applies if you cancel less than 3 days in advance.\n\nHowever, please note that we may have specific requirements or recommendations for booking in advance, especially considering the number of people attending the event. Unfortunately, without more information about your event, I'm unable to provide a definitive answer on whether you can walk in without booking.",
+        "confidence": 0.85,
+        "escalated": false,
+        "expected_topics": [
+          "walk-ins",
+          "slot availability",
+          "advance payment"
+        ],
+        "found_topics": [],
+        "topic_coverage": 0.0
+      }
+    ]
+  },
+  {
+    "name": "Escape Room Pricing",
+    "customer_id": "cust_003",
+    "session_id": "22a0cc94-03c9-487b-a093-0f6a9ec18432",
+    "timestamp": "2026-06-06T19:25:18.670851",
+    "exchanges": [
+      {
+        "customer": "How much does an escape room cost?",
+        "agent": "The cost of our Escape Room varies depending on the day and time you prefer. The rates are as follows:\n\n* Rs 20000 - Rs 40000 (for most weekdays)\n* Rs 60000/- and above (for weekends and holidays)\n\nPlease note that these rates are subject to change, but they are currently in effect.",
+        "confidence": 0.85,
+        "escalated": false,
+        "expected_topics": [
+          "700",
+          "1000",
+          "per person"
+        ],
+        "found_topics": [],
+        "topic_coverage": 0.0
+      },
+      {
+        "customer": "Do you offer student discounts?",
+        "agent": "I don't have enough information to fully answer your question. I'm escalating your inquiry to a human agent who will assist you shortly.",
+        "confidence": 0.0,
+        "escalated": true,
+        "expected_topics": [
+          "10%",
+          "student discount",
+          "valid ID"
+        ],
+        "found_topics": [],
+        "topic_coverage": 0.0
+      }
+    ]
+  },
+  {
+    "name": "Birthday Party Queries",
+    "customer_id": "cust_004",
+    "session_id": "92aec16b-ce18-4428-b367-4897cb29cffb",
+    "timestamp": "2026-06-06T19:25:39.014574",
+    "exchanges": [
+      {
+        "customer": "Do you host birthday parties?",
+        "agent": "Yes, we do host birthday parties. We have a variety of packages and options available to make your child's special day unforgettable. Would you like me to provide more information on our party packages or answer any specific questions about hosting a birthday party with us?",
+        "confidence": 0.85,
+        "escalated": false,
+        "expected_topics": [
+          "birthday parties",
+          "escape room",
+          "karaoke"
+        ],
+        "found_topics": [
+          "birthday parties"
+        ],
+        "topic_coverage": 0.3333333333333333
+      },
+      {
+        "customer": "How many people can attend a birthday party?",
+        "agent": "From the documents we have, I see that there are no specific maximum capacities mentioned for birthday parties. However, when making changes to the number of guests, rescheduling fees do apply based on the time frame in advance of the change.\n\nWould you like me to explain more about how these fees work or provide information on our party packages?",
+        "confidence": 0.85,
+        "escalated": false,
+        "expected_topics": [
+          "50-80",
+          "35-40",
+          "capacity"
+        ],
+        "found_topics": [],
+        "topic_coverage": 0.0
+      }
+    ]
+  },
+  {
+    "name": "Corporate Events",
+    "customer_id": "cust_005",
+    "session_id": "344683e2-5a0a-4775-a561-bb0455ef57f0",
+    "timestamp": "2026-06-06T19:26:01.127506",
+    "exchanges": [
+      {
+        "customer": "Do you conduct corporate team building events?",
+        "agent": "I'm not aware of any information that suggests we conduct corporate team building events. Our documentation doesn't mention this specific service. If you're looking for information on our standard services or policies, I'd be happy to try and help. However, if you have any other questions, feel free to ask!",
+        "confidence": 0.85,
+        "escalated": false,
+        "expected_topics": [
+          "corporate events",
+          "team building",
+          "escape room"
+        ],
+        "found_topics": [
+          "team building"
+        ],
+        "topic_coverage": 0.3333333333333333
+      },
+      {
+        "customer": "What activities are available?",
+        "agent": "According to our documentation, we offer karaoke as one of our activity options. It's a great way to have fun, boost team spirit, and create memorable moments with your colleagues.\n\nWould you like more information on how to book or customize the karaoke experience for your group?",
+        "confidence": 0.85,
+        "escalated": false,
+        "expected_topics": [
+          "scavenger hunt",
+          "detective job",
+          "virtual events"
+        ],
+        "found_topics": [],
+        "topic_coverage": 0.0
+      }
+    ]
+  },
+  {
+    "name": "Location and Timing",
+    "customer_id": "cust_006",
+    "session_id": "7f6b3f5f-4c2e-4f7f-9157-aa02e99ce055",
+    "timestamp": "2026-06-06T19:26:20.135389",
+    "exchanges": [
+      {
+        "customer": "Where is Breakout located?",
+        "agent": "I don't have enough information to fully answer your question. I'm escalating your inquiry to a human agent who will assist you shortly.",
+        "confidence": 0.0,
+        "escalated": true,
+        "expected_topics": [
+          "Koramangala",
+          "Whitefield",
+          "JP Nagar"
+        ],
+        "found_topics": [],
+        "topic_coverage": 0.0
+      },
+      {
+        "customer": "How early should I arrive?",
+        "agent": "I'd be happy to help with that! According to our Refund Policy (Document 3), it's recommended that you arrive at least 2 hours prior to your scheduled event time for changes made less than 2 hours in advance. This will give us enough time to make any necessary adjustments.\n\nIf you need to make a change within 1 day of the event, we recommend arriving at least 30 minutes early (Document 3). For changes made more than 1 day in advance, our standard arrival time remains 15-30 minutes before the scheduled start time.",
+        "confidence": 0.85,
+        "escalated": false,
+        "expected_topics": [
+          "20 minutes",
+          "before slot"
+        ],
+        "found_topics": [],
+        "topic_coverage": 0.0
+      }
+    ]
+  },
+  {
+    "name": "Escalation Scenario",
+    "customer_id": "cust_007",
+    "session_id": "d8bc993b-5958-4de2-a0f3-ad9c40cd1663",
+    "timestamp": "2026-06-06T19:26:42.292734",
+    "exchanges": [
+      {
+        "customer": "What is your international shipping policy?",
+        "agent": "I'm not aware of any information on an international shipping policy. Our company's policies and procedures are documented, but I couldn't find any specific details on international shipping. If you're interested in knowing more about our domestic shipping policy or have other questions, I'd be happy to try and help!",
+        "confidence": 0.85,
+        "escalated": false,
+        "expected_topics": [
+          "not found",
+          "escalation",
+          "human assistance"
+        ],
+        "found_topics": [],
+        "topic_coverage": 0.0
+      }
+    ]
+  }
+]
