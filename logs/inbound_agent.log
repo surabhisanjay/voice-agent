@@ -1083,3 +1083,885 @@
 2026-06-07 15:10:33,914 - app.api.agent_routes - INFO - Synthesizing speech...
 2026-06-07 15:10:33,914 - app.api.agent_routes - WARNING - Piper unavailable; returning text-only voice response.
 2026-06-07 15:15:05,930 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-08 14:38:18,888 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-08 14:38:18,890 - app.main - INFO - Database initialized
+2026-06-08 14:38:56,896 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-06-08 14:38:57,078 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 14:38:57,080 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 14:38:57,093 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 14:38:57,095 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-08 14:38:57,101 - app.agent.memory - INFO - Created new session 06644fc6-10b2-4457-907f-41c2feb97e48 for customer web_demo
+2026-06-08 14:38:57,103 - app.agent.memory - INFO - Loaded 0 messages for session 06644fc6-10b2-4457-907f-41c2feb97e48
+2026-06-08 14:38:57,108 - app.agent.inbound_agent - INFO - Retrieving documents for: what is the refund policy
+2026-06-08 14:39:12,470 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 14:39:12,890 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 14:39:13,153 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 14:39:13,158 - app.rag.ingestion - INFO - All 5 chunks exceeded score threshold 0.30 — returning top 5 anyway.
+2026-06-08 14:39:13,159 - app.agent.inbound_agent - INFO - Retrieved 5 documents
+2026-06-08 14:39:16,100 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-08 14:39:17,183 - app.agent.inbound_agent - INFO - Generated response: I couldn't find any relevant information in the provided documents about a specific refund policy.
+2026-06-08 14:39:17,184 - app.agent.inbound_agent - INFO - Overrode missing-info response with document excerpt.
+2026-06-08 14:39:17,196 - app.agent.memory - INFO - Added user message to session 06644fc6-10b2-4457-907f-41c2feb97e48
+2026-06-08 14:39:17,197 - app.agent.memory - INFO - Added assistant message to session 06644fc6-10b2-4457-907f-41c2feb97e48
+2026-06-08 14:41:36,618 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-08 14:41:38,478 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-08 14:41:38,479 - app.main - INFO - Database initialized
+2026-06-08 14:41:55,582 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-06-08 14:41:55,734 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 14:41:55,736 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 14:41:55,748 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 14:41:55,757 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 14:41:55,761 - app.rag.ingestion - WARNING - Existing vector store contents do not match document_path=documents; rebuilding store from the configured path.
+2026-06-08 14:41:55,771 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 14:41:55,771 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 14:41:55,773 - app.rag.ingestion - INFO - Loaded 3 TXT file(s).
+2026-06-08 14:41:55,773 - app.rag.ingestion - INFO - Loaded 0 PDF file(s).
+2026-06-08 14:41:55,773 - app.rag.ingestion - INFO - Split 3 docs → 16 chunks.
+2026-06-08 14:41:55,778 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 14:42:10,836 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-08 14:42:10,839 - app.main - INFO - Database initialized
+2026-06-08 14:42:14,542 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 14:42:14,941 - app.rag.ingestion - ERROR - Error storing chunks: attempt to write a readonly database
+2026-06-08 14:42:14,948 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-08 14:42:14,967 - app.agent.memory - INFO - Created new session fb522ba8-c8b9-47bf-8e2f-8aa32d9f4464 for customer web_demo
+2026-06-08 14:42:14,969 - app.agent.memory - INFO - Loaded 0 messages for session fb522ba8-c8b9-47bf-8e2f-8aa32d9f4464
+2026-06-08 14:42:14,984 - app.agent.inbound_agent - INFO - Retrieving documents for: what is the refund policy
+2026-06-08 14:42:28,014 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 14:42:28,046 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 14:42:28,064 - app.rag.ingestion - ERROR - Retrieval error: 1 validation error for Document
+page_content
+  none is not an allowed value (type=type_error.none.not_allowed)
+2026-06-08 14:42:28,065 - app.rag.retriever - INFO - No documents retrieved for: 'what is the refund policy'
+2026-06-08 14:42:28,065 - app.agent.inbound_agent - INFO - Retrieved 0 documents
+2026-06-08 14:42:29,447 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-08 14:42:31,036 - app.agent.inbound_agent - INFO - Generated response: I couldn't find any relevant information on the refund policy in the provided company documents.
+2026-06-08 14:42:31,049 - app.agent.memory - INFO - Added user message to session fb522ba8-c8b9-47bf-8e2f-8aa32d9f4464
+2026-06-08 14:42:31,051 - app.agent.memory - INFO - Added assistant message to session fb522ba8-c8b9-47bf-8e2f-8aa32d9f4464
+2026-06-08 14:42:31,155 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-08 14:44:29,733 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-08 14:44:31,695 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-08 14:44:31,698 - app.main - INFO - Database initialized
+2026-06-08 14:44:32,710 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-08 14:44:34,033 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-08 14:44:34,034 - app.main - INFO - Database initialized
+2026-06-08 14:44:37,982 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-08 14:44:40,088 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-08 14:44:40,089 - app.main - INFO - Database initialized
+2026-06-08 14:45:15,570 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-06-08 14:45:15,720 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 14:45:15,721 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 14:45:15,732 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 14:45:15,733 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 14:45:15,735 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-08 14:45:15,743 - app.agent.memory - INFO - Created new session da5afc06-0864-4257-8c70-b1ff98673bef for customer web_demo
+2026-06-08 14:45:15,744 - app.agent.memory - INFO - Loaded 0 messages for session da5afc06-0864-4257-8c70-b1ff98673bef
+2026-06-08 14:45:15,751 - app.agent.inbound_agent - INFO - Retrieving documents for: what is the Cancellation Policy
+2026-06-08 14:45:19,366 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 14:45:19,457 - chromadb.segment.impl.vector.local_persistent_hnsw - WARNING - Number of requested results 20 is greater than number of elements in index 16, updating n_results = 16
+2026-06-08 14:45:19,462 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 14:45:20,084 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 14:45:20,093 - chromadb.segment.impl.vector.local_persistent_hnsw - WARNING - Number of requested results 20 is greater than number of elements in index 16, updating n_results = 16
+2026-06-08 14:45:20,102 - app.rag.ingestion - INFO - All 5 chunks exceeded score threshold 0.30 — returning top 5 anyway.
+2026-06-08 14:45:20,103 - app.agent.inbound_agent - INFO - Retrieved 5 documents
+2026-06-08 14:45:24,321 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-08 14:45:28,487 - app.agent.inbound_agent - INFO - Generated response: According to our company's booking policy:
+
+- Cancellation more than 30 days before the event: Full 
+2026-06-08 14:45:28,503 - app.agent.memory - INFO - Added user message to session da5afc06-0864-4257-8c70-b1ff98673bef
+2026-06-08 14:45:28,504 - app.agent.memory - INFO - Added assistant message to session da5afc06-0864-4257-8c70-b1ff98673bef
+2026-06-08 14:45:38,304 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-08 14:45:38,312 - app.agent.memory - INFO - Created new session b15e2672-f5ac-4fdc-b5f1-da960b89d050 for customer web_demo
+2026-06-08 14:45:38,314 - app.agent.memory - INFO - Loaded 0 messages for session b15e2672-f5ac-4fdc-b5f1-da960b89d050
+2026-06-08 14:45:38,318 - app.agent.inbound_agent - INFO - Retrieving documents for: what is the Contact Information
+2026-06-08 14:45:41,655 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 14:45:41,659 - chromadb.segment.impl.vector.local_persistent_hnsw - WARNING - Number of requested results 20 is greater than number of elements in index 16, updating n_results = 16
+2026-06-08 14:45:42,008 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 14:45:42,010 - chromadb.segment.impl.vector.local_persistent_hnsw - WARNING - Number of requested results 20 is greater than number of elements in index 16, updating n_results = 16
+2026-06-08 14:45:42,013 - app.rag.ingestion - INFO - All 5 chunks exceeded score threshold 0.30 — returning top 5 anyway.
+2026-06-08 14:45:42,014 - app.agent.inbound_agent - INFO - Retrieved 5 documents
+2026-06-08 14:45:45,758 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-08 14:45:46,696 - app.agent.inbound_agent - INFO - Generated response: I couldn't find any relevant information about contact information in the provided documents.
+2026-06-08 14:45:46,697 - app.agent.inbound_agent - INFO - Overrode missing-info response with document excerpt.
+2026-06-08 14:45:46,706 - app.agent.memory - INFO - Added user message to session b15e2672-f5ac-4fdc-b5f1-da960b89d050
+2026-06-08 14:45:46,708 - app.agent.memory - INFO - Added assistant message to session b15e2672-f5ac-4fdc-b5f1-da960b89d050
+2026-06-08 14:46:29,067 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-08 14:48:24,984 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-08 14:48:24,993 - app.main - INFO - Database initialized
+2026-06-08 14:48:53,786 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-06-08 14:48:53,940 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 14:48:53,942 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 14:48:53,954 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 14:48:53,956 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 14:48:53,959 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-08 14:48:53,965 - app.agent.memory - INFO - Created new session 7ef0a246-68f8-4a63-baa4-8ddadb500966 for customer web_demo
+2026-06-08 14:48:53,968 - app.agent.memory - INFO - Loaded 0 messages for session 7ef0a246-68f8-4a63-baa4-8ddadb500966
+2026-06-08 14:48:53,972 - app.agent.inbound_agent - INFO - Retrieving documents for: Rescheduling policy?
+2026-06-08 14:49:07,955 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 14:49:08,084 - chromadb.segment.impl.vector.local_persistent_hnsw - WARNING - Number of requested results 20 is greater than number of elements in index 16, updating n_results = 16
+2026-06-08 14:49:08,093 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 14:49:08,307 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 14:49:08,309 - chromadb.segment.impl.vector.local_persistent_hnsw - WARNING - Number of requested results 20 is greater than number of elements in index 16, updating n_results = 16
+2026-06-08 14:49:08,312 - app.rag.ingestion - INFO - All 5 chunks exceeded score threshold 0.30 — returning top 5 anyway.
+2026-06-08 14:49:08,312 - app.agent.inbound_agent - INFO - Retrieved 5 documents
+2026-06-08 14:49:11,075 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-08 14:49:12,137 - app.agent.inbound_agent - INFO - Generated response: I couldn't find any relevant information about a rescheduling policy in the provided documents.
+2026-06-08 14:49:12,137 - app.agent.inbound_agent - INFO - Overrode missing-info response with document excerpt.
+2026-06-08 14:49:12,159 - app.agent.memory - INFO - Added user message to session 7ef0a246-68f8-4a63-baa4-8ddadb500966
+2026-06-08 14:49:12,160 - app.agent.memory - INFO - Added assistant message to session 7ef0a246-68f8-4a63-baa4-8ddadb500966
+2026-06-08 14:54:40,160 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-08 14:55:13,813 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-08 14:55:13,826 - app.main - INFO - Database initialized
+2026-06-08 14:57:11,658 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-08 14:57:28,724 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-08 14:57:28,737 - app.main - INFO - Database initialized
+2026-06-08 14:57:30,965 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-08 14:57:32,648 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-08 14:57:32,649 - app.main - INFO - Database initialized
+2026-06-08 14:57:34,877 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-08 14:57:38,917 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-08 14:57:38,918 - app.main - INFO - Database initialized
+2026-06-08 14:57:49,667 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-06-08 14:57:49,825 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 14:57:49,827 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 14:57:49,839 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 14:57:49,841 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 14:57:49,844 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-08 14:57:49,851 - app.agent.memory - INFO - Created new session 291e0e0f-62d0-4420-ab36-5518478bb624 for customer web_demo
+2026-06-08 14:57:49,853 - app.agent.memory - INFO - Loaded 0 messages for session 291e0e0f-62d0-4420-ab36-5518478bb624
+2026-06-08 14:57:49,858 - app.agent.inbound_agent - INFO - Retrieving documents for: Rescheduling policy?
+2026-06-08 14:58:04,404 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 14:58:04,586 - chromadb.segment.impl.vector.local_persistent_hnsw - WARNING - Number of requested results 20 is greater than number of elements in index 16, updating n_results = 16
+2026-06-08 14:58:04,594 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 14:58:04,859 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 14:58:04,860 - chromadb.segment.impl.vector.local_persistent_hnsw - WARNING - Number of requested results 20 is greater than number of elements in index 16, updating n_results = 16
+2026-06-08 14:58:04,864 - app.rag.ingestion - INFO - All 5 chunks exceeded score threshold 0.30 — returning top 5 anyway.
+2026-06-08 14:58:04,864 - app.agent.inbound_agent - INFO - Retrieved 5 documents
+2026-06-08 14:58:07,602 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-08 14:58:10,053 - app.agent.inbound_agent - INFO - Generated response: I couldn't find any relevant information in the provided documents regarding rescheduling policies. 
+2026-06-08 14:58:10,053 - app.agent.inbound_agent - INFO - Overrode missing-info response with document excerpt.
+2026-06-08 14:58:10,084 - app.agent.memory - INFO - Added user message to session 291e0e0f-62d0-4420-ab36-5518478bb624
+2026-06-08 14:58:10,090 - app.agent.memory - INFO - Added assistant message to session 291e0e0f-62d0-4420-ab36-5518478bb624
+2026-06-08 14:58:45,043 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-08 14:58:47,189 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-08 14:58:47,191 - app.main - INFO - Database initialized
+2026-06-08 14:58:54,279 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-08 15:00:59,835 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-08 15:00:59,847 - app.main - INFO - Database initialized
+2026-06-08 15:01:13,870 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-06-08 15:01:14,026 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 15:01:14,028 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 15:01:14,040 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 15:01:14,042 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 15:01:14,044 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-08 15:01:14,053 - app.agent.memory - INFO - Created new session a98cbe5e-fd97-4204-979d-4c2618188bb7 for customer web_demo
+2026-06-08 15:01:14,055 - app.agent.memory - INFO - Loaded 0 messages for session a98cbe5e-fd97-4204-979d-4c2618188bb7
+2026-06-08 15:01:14,061 - app.agent.inbound_agent - INFO - Retrieving documents for: resscheduling policy?
+2026-06-08 15:01:23,510 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 15:01:23,610 - chromadb.segment.impl.vector.local_persistent_hnsw - WARNING - Number of requested results 20 is greater than number of elements in index 16, updating n_results = 16
+2026-06-08 15:01:23,617 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 15:01:23,818 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 15:01:23,819 - chromadb.segment.impl.vector.local_persistent_hnsw - WARNING - Number of requested results 20 is greater than number of elements in index 16, updating n_results = 16
+2026-06-08 15:01:23,823 - app.rag.ingestion - INFO - All 5 chunks exceeded score threshold 0.30 — returning top 5 anyway.
+2026-06-08 15:01:23,823 - app.agent.inbound_agent - INFO - Retrieved 5 documents
+2026-06-08 15:01:26,851 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-08 15:01:30,286 - app.agent.inbound_agent - INFO - Generated response: I couldn't find any relevant information in the provided documents about rescheduling policies. Howe
+2026-06-08 15:01:30,287 - app.agent.inbound_agent - INFO - Overrode missing-info response with document excerpt.
+2026-06-08 15:01:30,300 - app.agent.memory - INFO - Added user message to session a98cbe5e-fd97-4204-979d-4c2618188bb7
+2026-06-08 15:01:30,301 - app.agent.memory - INFO - Added assistant message to session a98cbe5e-fd97-4204-979d-4c2618188bb7
+2026-06-08 15:01:37,559 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-08 15:02:39,088 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-08 15:02:39,101 - app.main - INFO - Database initialized
+2026-06-08 15:02:40,421 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-08 15:02:43,327 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-08 15:02:43,328 - app.main - INFO - Database initialized
+2026-06-08 15:02:56,282 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-06-08 15:02:56,453 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 15:02:56,466 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 15:02:56,467 - app.rag.ingestion - INFO - Vector store empty — ingesting documents from documents.
+2026-06-08 15:02:56,468 - app.rag.ingestion - INFO - Loaded 3 TXT file(s).
+2026-06-08 15:02:56,469 - app.rag.ingestion - INFO - Loaded 0 PDF file(s).
+2026-06-08 15:02:56,469 - app.rag.ingestion - INFO - Split 3 docs → 16 chunks.
+2026-06-08 15:03:16,060 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 15:03:16,263 - app.rag.ingestion - INFO - Ingested 16 new chunks (0 skipped as duplicates).
+2026-06-08 15:03:16,266 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-08 15:03:16,275 - app.agent.memory - INFO - Created new session a97b3e97-11df-461b-a3cc-50c385305fdb for customer web_demo
+2026-06-08 15:03:16,278 - app.agent.memory - INFO - Loaded 0 messages for session a97b3e97-11df-461b-a3cc-50c385305fdb
+2026-06-08 15:03:16,285 - app.agent.inbound_agent - INFO - Retrieving documents for: rescheduling policy?
+2026-06-08 15:03:16,505 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 15:03:16,506 - chromadb.segment.impl.vector.local_persistent_hnsw - WARNING - Number of requested results 20 is greater than number of elements in index 16, updating n_results = 16
+2026-06-08 15:03:16,513 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 15:03:16,733 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 15:03:16,735 - chromadb.segment.impl.vector.local_persistent_hnsw - WARNING - Number of requested results 20 is greater than number of elements in index 16, updating n_results = 16
+2026-06-08 15:03:16,739 - app.rag.ingestion - INFO - All 5 chunks exceeded score threshold 0.30 — returning top 5 anyway.
+2026-06-08 15:03:16,739 - app.agent.inbound_agent - INFO - Retrieved 5 documents
+2026-06-08 15:03:19,738 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-08 15:03:22,311 - app.agent.inbound_agent - INFO - Generated response: I couldn't find any relevant information in the provided documents regarding a rescheduling policy. 
+2026-06-08 15:03:22,312 - app.agent.inbound_agent - INFO - Overrode missing-info response with document excerpt.
+2026-06-08 15:03:22,326 - app.agent.memory - INFO - Added user message to session a97b3e97-11df-461b-a3cc-50c385305fdb
+2026-06-08 15:03:22,328 - app.agent.memory - INFO - Added assistant message to session a97b3e97-11df-461b-a3cc-50c385305fdb
+2026-06-08 15:03:34,679 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-08 15:04:23,435 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-08 15:04:23,448 - app.main - INFO - Database initialized
+2026-06-08 15:04:41,383 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-06-08 15:04:41,555 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 15:04:41,567 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 15:04:41,569 - app.rag.ingestion - INFO - Vector store empty — ingesting documents from documents.
+2026-06-08 15:04:41,570 - app.rag.ingestion - INFO - Loaded 3 TXT file(s).
+2026-06-08 15:04:41,570 - app.rag.ingestion - INFO - Loaded 0 PDF file(s).
+2026-06-08 15:04:41,571 - app.rag.ingestion - INFO - Split 3 docs → 16 chunks.
+2026-06-08 15:04:57,745 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 15:04:57,997 - app.rag.ingestion - INFO - Ingested 16 new chunks (0 skipped as duplicates).
+2026-06-08 15:04:57,999 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-08 15:04:58,013 - app.agent.memory - INFO - Created new session 95cce587-3746-44e3-b134-6448176d1c28 for customer web_demo
+2026-06-08 15:04:58,016 - app.agent.memory - INFO - Loaded 0 messages for session 95cce587-3746-44e3-b134-6448176d1c28
+2026-06-08 15:04:58,025 - app.agent.inbound_agent - INFO - Retrieving documents for: rescheduling policy?
+2026-06-08 15:04:58,234 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 15:04:58,236 - chromadb.segment.impl.vector.local_persistent_hnsw - WARNING - Number of requested results 20 is greater than number of elements in index 16, updating n_results = 16
+2026-06-08 15:04:58,242 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 15:04:58,434 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 15:04:58,435 - chromadb.segment.impl.vector.local_persistent_hnsw - WARNING - Number of requested results 20 is greater than number of elements in index 16, updating n_results = 16
+2026-06-08 15:04:58,439 - app.rag.ingestion - INFO - All 5 chunks exceeded score threshold 0.30 — returning top 5 anyway.
+2026-06-08 15:04:58,439 - app.agent.inbound_agent - INFO - Retrieved 5 documents
+2026-06-08 15:05:01,293 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-08 15:05:05,966 - app.agent.inbound_agent - INFO - Generated response: I couldn't find any relevant information on a rescheduling policy in the provided documents. However
+2026-06-08 15:05:05,968 - app.agent.inbound_agent - INFO - Overrode missing-info response with document excerpt.
+2026-06-08 15:05:05,985 - app.agent.memory - INFO - Added user message to session 95cce587-3746-44e3-b134-6448176d1c28
+2026-06-08 15:05:05,987 - app.agent.memory - INFO - Added assistant message to session 95cce587-3746-44e3-b134-6448176d1c28
+2026-06-08 15:05:44,529 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-08 15:06:27,667 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-08 15:06:27,679 - app.main - INFO - Database initialized
+2026-06-08 15:06:34,967 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-06-08 15:06:35,121 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 15:06:35,123 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 15:06:35,136 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 15:06:35,138 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 15:06:35,140 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-08 15:06:35,147 - app.agent.memory - INFO - Created new session b027136d-6592-4d95-ae1c-1425cda32cb7 for customer web_demo
+2026-06-08 15:06:35,149 - app.agent.memory - INFO - Loaded 0 messages for session b027136d-6592-4d95-ae1c-1425cda32cb7
+2026-06-08 15:06:35,154 - app.agent.inbound_agent - INFO - Retrieving documents for: rescheduling policy?
+2026-06-08 15:06:43,119 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 15:06:43,298 - chromadb.segment.impl.vector.local_persistent_hnsw - WARNING - Number of requested results 20 is greater than number of elements in index 16, updating n_results = 16
+2026-06-08 15:06:43,303 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 15:06:43,502 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 15:06:43,503 - chromadb.segment.impl.vector.local_persistent_hnsw - WARNING - Number of requested results 20 is greater than number of elements in index 16, updating n_results = 16
+2026-06-08 15:06:43,507 - app.rag.ingestion - INFO - All 5 chunks exceeded score threshold 0.45 — returning top 5 anyway.
+2026-06-08 15:06:43,507 - app.agent.inbound_agent - INFO - Retrieved 5 documents
+2026-06-08 15:06:46,448 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-08 15:06:54,475 - app.agent.inbound_agent - INFO - Generated response: I couldn't find any specific rescheduling policy information in the provided documents. However, I c
+2026-06-08 15:06:54,493 - app.agent.memory - INFO - Added user message to session b027136d-6592-4d95-ae1c-1425cda32cb7
+2026-06-08 15:06:54,495 - app.agent.memory - INFO - Added assistant message to session b027136d-6592-4d95-ae1c-1425cda32cb7
+2026-06-08 15:09:05,305 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-08 15:09:07,251 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-08 15:09:07,252 - app.main - INFO - Database initialized
+2026-06-08 15:09:07,557 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-08 15:09:08,921 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-08 15:09:08,923 - app.main - INFO - Database initialized
+2026-06-08 15:10:16,214 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-06-08 15:10:16,370 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 15:10:16,372 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 15:10:16,385 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 15:10:16,387 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 15:10:16,389 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-08 15:10:16,396 - app.agent.memory - INFO - Created new session 44cb9c08-3bd1-4bca-89e8-64f8f27b1302 for customer web_demo
+2026-06-08 15:10:16,397 - app.agent.memory - INFO - Loaded 0 messages for session 44cb9c08-3bd1-4bca-89e8-64f8f27b1302
+2026-06-08 15:10:16,402 - app.agent.inbound_agent - INFO - Retrieving documents for: rescheduling policy?
+2026-06-08 15:10:27,382 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 15:10:27,480 - chromadb.segment.impl.vector.local_persistent_hnsw - WARNING - Number of requested results 20 is greater than number of elements in index 16, updating n_results = 16
+2026-06-08 15:10:27,486 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 15:10:27,690 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 15:10:27,691 - chromadb.segment.impl.vector.local_persistent_hnsw - WARNING - Number of requested results 20 is greater than number of elements in index 16, updating n_results = 16
+2026-06-08 15:10:27,694 - app.rag.ingestion - INFO - All 5 chunks exceeded score threshold 0.45 — returning top 5 anyway.
+2026-06-08 15:10:27,695 - app.agent.inbound_agent - INFO - Retrieved 5 documents
+2026-06-08 15:10:30,762 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-08 15:10:36,578 - app.agent.inbound_agent - INFO - Generated response: I couldn't find any specific rescheduling policy in the provided documents. However, I can tell you 
+2026-06-08 15:10:36,596 - app.agent.memory - INFO - Added user message to session 44cb9c08-3bd1-4bca-89e8-64f8f27b1302
+2026-06-08 15:10:36,597 - app.agent.memory - INFO - Added assistant message to session 44cb9c08-3bd1-4bca-89e8-64f8f27b1302
+2026-06-08 15:11:32,226 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-08 15:11:35,011 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-08 15:11:35,012 - app.main - INFO - Database initialized
+2026-06-08 15:11:40,174 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-08 15:11:42,245 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-08 15:11:42,246 - app.main - INFO - Database initialized
+2026-06-08 15:12:39,897 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-08 15:12:45,115 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-08 15:12:45,116 - app.main - INFO - Database initialized
+2026-06-08 15:12:49,812 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-06-08 15:12:49,966 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 15:12:49,968 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 15:12:49,981 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 15:12:49,983 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 15:12:49,985 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-08 15:12:49,991 - app.agent.memory - INFO - Created new session a95d8dcc-1e37-4a8b-b386-304b9b03aa8f for customer web_demo
+2026-06-08 15:12:49,992 - app.agent.memory - INFO - Loaded 0 messages for session a95d8dcc-1e37-4a8b-b386-304b9b03aa8f
+2026-06-08 15:12:49,999 - app.agent.inbound_agent - INFO - Retrieving documents for: rescheduling policy?
+2026-06-08 15:12:56,803 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 15:12:56,972 - chromadb.segment.impl.vector.local_persistent_hnsw - WARNING - Number of requested results 20 is greater than number of elements in index 16, updating n_results = 16
+2026-06-08 15:12:56,979 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 15:12:57,200 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 15:12:57,202 - chromadb.segment.impl.vector.local_persistent_hnsw - WARNING - Number of requested results 20 is greater than number of elements in index 16, updating n_results = 16
+2026-06-08 15:12:57,205 - app.rag.ingestion - INFO - All 5 chunks exceeded score threshold 0.45 — returning top 5 anyway.
+2026-06-08 15:12:57,206 - app.agent.inbound_agent - INFO - Retrieved 5 documents
+2026-06-08 15:13:00,435 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-08 15:13:05,986 - app.agent.inbound_agent - INFO - Generated response: Our Refund Policy outlines the rescheduling procedure. According to section 3, if you need to resche
+2026-06-08 15:13:06,002 - app.agent.memory - INFO - Added user message to session a95d8dcc-1e37-4a8b-b386-304b9b03aa8f
+2026-06-08 15:13:06,003 - app.agent.memory - INFO - Added assistant message to session a95d8dcc-1e37-4a8b-b386-304b9b03aa8f
+2026-06-08 15:13:19,256 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-08 15:13:19,264 - app.agent.memory - INFO - Created new session 474f37c9-82b7-464d-aa11-4f6dec33b514 for customer web_demo
+2026-06-08 15:13:19,267 - app.agent.memory - INFO - Loaded 0 messages for session 474f37c9-82b7-464d-aa11-4f6dec33b514
+2026-06-08 15:13:19,271 - app.agent.inbound_agent - INFO - Retrieving documents for: cancellation policy?
+2026-06-08 15:13:20,312 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 15:13:20,314 - chromadb.segment.impl.vector.local_persistent_hnsw - WARNING - Number of requested results 20 is greater than number of elements in index 16, updating n_results = 16
+2026-06-08 15:13:20,501 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 15:13:20,503 - chromadb.segment.impl.vector.local_persistent_hnsw - WARNING - Number of requested results 20 is greater than number of elements in index 16, updating n_results = 16
+2026-06-08 15:13:20,506 - app.rag.ingestion - INFO - All 5 chunks exceeded score threshold 0.45 — returning top 5 anyway.
+2026-06-08 15:13:20,506 - app.agent.inbound_agent - INFO - Retrieved 5 documents
+2026-06-08 15:13:23,529 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-08 15:13:27,127 - app.agent.inbound_agent - INFO - Generated response: According to our Refund Policy:
+
+- 30+ days before: Full refund minus 10% processing fee
+- 15-30 day
+2026-06-08 15:13:27,138 - app.agent.memory - INFO - Added user message to session 474f37c9-82b7-464d-aa11-4f6dec33b514
+2026-06-08 15:13:27,140 - app.agent.memory - INFO - Added assistant message to session 474f37c9-82b7-464d-aa11-4f6dec33b514
+2026-06-08 15:14:35,292 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-08 15:14:37,878 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-08 15:14:37,880 - app.main - INFO - Database initialized
+2026-06-08 15:14:43,945 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-08 15:14:45,425 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-08 15:14:45,427 - app.main - INFO - Database initialized
+2026-06-08 15:14:46,439 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-08 15:14:47,760 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-08 15:14:47,761 - app.main - INFO - Database initialized
+2026-06-08 15:15:04,863 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-08 15:15:11,303 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-08 15:15:11,305 - app.main - INFO - Database initialized
+2026-06-08 15:15:18,586 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-06-08 15:15:18,742 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 15:15:18,744 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 15:15:18,757 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 15:15:18,759 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 15:15:18,761 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-08 15:15:18,767 - app.agent.memory - INFO - Created new session 1e38842d-5afc-4495-9216-d5a908726c20 for customer web_demo
+2026-06-08 15:15:18,769 - app.agent.memory - INFO - Loaded 0 messages for session 1e38842d-5afc-4495-9216-d5a908726c20
+2026-06-08 15:15:18,773 - app.agent.inbound_agent - INFO - Retrieving documents for: cancellation policy?
+2026-06-08 15:15:26,748 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 15:15:26,960 - chromadb.segment.impl.vector.local_persistent_hnsw - WARNING - Number of requested results 20 is greater than number of elements in index 16, updating n_results = 16
+2026-06-08 15:15:26,967 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 15:15:27,188 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 15:15:27,190 - chromadb.segment.impl.vector.local_persistent_hnsw - WARNING - Number of requested results 20 is greater than number of elements in index 16, updating n_results = 16
+2026-06-08 15:15:27,193 - app.rag.ingestion - INFO - All 5 chunks exceeded score threshold 0.45 — returning top 5 anyway.
+2026-06-08 15:15:27,194 - app.agent.inbound_agent - INFO - Retrieved 5 documents
+2026-06-08 15:15:30,291 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-08 15:15:34,872 - app.agent.inbound_agent - INFO - Generated response: According to our Refund Policy (available in pricing_guide.txt), refunds are processed based on the 
+2026-06-08 15:15:34,886 - app.agent.memory - INFO - Added user message to session 1e38842d-5afc-4495-9216-d5a908726c20
+2026-06-08 15:15:34,889 - app.agent.memory - INFO - Added assistant message to session 1e38842d-5afc-4495-9216-d5a908726c20
+2026-06-08 15:30:36,375 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-08 15:30:38,305 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-08 15:30:38,306 - app.main - INFO - Database initialized
+2026-06-08 15:30:58,746 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-08 15:31:00,381 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-08 15:31:00,382 - app.main - INFO - Database initialized
+2026-06-08 15:31:08,065 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-08 15:31:14,434 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-08 15:31:14,435 - app.main - INFO - Database initialized
+2026-06-08 15:31:21,236 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-06-08 15:31:21,391 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 15:31:21,393 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 15:31:21,406 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 15:31:21,408 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 15:31:21,410 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-08 15:31:21,416 - app.agent.memory - INFO - Created new session c092ec80-2585-421a-86b8-4c4f1aa7d578 for customer web_demo
+2026-06-08 15:31:21,417 - app.agent.memory - INFO - Loaded 0 messages for session c092ec80-2585-421a-86b8-4c4f1aa7d578
+2026-06-08 15:31:21,422 - app.agent.inbound_agent - INFO - Retrieving documents for: cancellation policy?
+2026-06-08 15:31:32,156 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 15:31:32,283 - chromadb.segment.impl.vector.local_persistent_hnsw - WARNING - Number of requested results 20 is greater than number of elements in index 16, updating n_results = 16
+2026-06-08 15:31:32,290 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 15:31:32,499 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 15:31:32,500 - chromadb.segment.impl.vector.local_persistent_hnsw - WARNING - Number of requested results 20 is greater than number of elements in index 16, updating n_results = 16
+2026-06-08 15:31:32,504 - app.rag.ingestion - INFO - All 5 chunks exceeded score threshold 0.45 — returning top 5 anyway.
+2026-06-08 15:31:32,504 - app.agent.inbound_agent - INFO - Retrieved 5 documents
+2026-06-08 15:31:36,522 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-08 15:31:42,181 - app.agent.inbound_agent - INFO - Generated response: According to our Refund Policy (found in [pricing_guide.txt]), if you cancel your booking:
+
+* 30+ da
+2026-06-08 15:31:42,200 - app.agent.memory - INFO - Added user message to session c092ec80-2585-421a-86b8-4c4f1aa7d578
+2026-06-08 15:31:42,201 - app.agent.memory - INFO - Added assistant message to session c092ec80-2585-421a-86b8-4c4f1aa7d578
+2026-06-08 15:35:59,541 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-08 15:36:01,738 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-08 15:36:01,740 - app.main - INFO - Database initialized
+2026-06-08 15:36:16,492 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-06-08 15:36:16,645 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 15:36:16,648 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 15:36:16,660 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 15:36:16,662 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 15:36:16,665 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-08 15:36:16,671 - app.agent.memory - INFO - Created new session a6728fef-e620-4ba3-9eb6-992dfe0fbf46 for customer web_demo
+2026-06-08 15:36:16,673 - app.agent.memory - INFO - Loaded 0 messages for session a6728fef-e620-4ba3-9eb6-992dfe0fbf46
+2026-06-08 15:36:16,678 - app.agent.inbound_agent - INFO - Retrieving documents for: cancellation policy?
+2026-06-08 15:36:26,797 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 15:36:26,927 - chromadb.segment.impl.vector.local_persistent_hnsw - WARNING - Number of requested results 20 is greater than number of elements in index 16, updating n_results = 16
+2026-06-08 15:36:26,934 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 15:36:27,139 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 15:36:27,140 - chromadb.segment.impl.vector.local_persistent_hnsw - WARNING - Number of requested results 20 is greater than number of elements in index 16, updating n_results = 16
+2026-06-08 15:36:27,144 - app.rag.ingestion - INFO - Retrieved | File=pricing_guide.txt | Chunk=4 | Score=1.0160
+2026-06-08 15:36:27,144 - app.rag.ingestion - INFO - Retrieved | File=pricing_guide.txt | Chunk=0 | Score=1.0458
+2026-06-08 15:36:27,144 - app.rag.ingestion - INFO - Retrieved | File=booking_policy.txt | Chunk=12 | Score=1.1547
+2026-06-08 15:36:27,144 - app.rag.ingestion - INFO - Retrieved | File=faqs.txt | Chunk=7 | Score=1.2435
+2026-06-08 15:36:27,144 - app.rag.ingestion - INFO - Retrieved | File=booking_policy.txt | Chunk=14 | Score=1.2553
+2026-06-08 15:36:27,144 - app.rag.ingestion - INFO - No relevant documents found for query: cancellation policy?
+2026-06-08 15:36:27,145 - app.rag.retriever - INFO - No documents retrieved for: 'cancellation policy?'
+2026-06-08 15:36:27,145 - app.agent.inbound_agent - INFO - Retrieved 0 documents
+2026-06-08 15:36:28,963 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-08 15:36:37,300 - app.agent.inbound_agent - INFO - Generated response: Our cancellation policy is as follows: 
+
+If you wish to cancel your order, please contact us at leas
+2026-06-08 15:36:37,323 - app.agent.memory - INFO - Added user message to session a6728fef-e620-4ba3-9eb6-992dfe0fbf46
+2026-06-08 15:36:37,325 - app.agent.memory - INFO - Added assistant message to session a6728fef-e620-4ba3-9eb6-992dfe0fbf46
+2026-06-08 15:36:46,137 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-08 15:36:46,149 - app.agent.memory - INFO - Created new session e2d3353c-cf92-43a1-98d8-231cc91ab086 for customer web_demo
+2026-06-08 15:36:46,150 - app.agent.memory - INFO - Loaded 0 messages for session e2d3353c-cf92-43a1-98d8-231cc91ab086
+2026-06-08 15:36:46,155 - app.agent.inbound_agent - INFO - Retrieving documents for: rescheduling policy?
+2026-06-08 15:36:47,562 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 15:36:47,564 - chromadb.segment.impl.vector.local_persistent_hnsw - WARNING - Number of requested results 20 is greater than number of elements in index 16, updating n_results = 16
+2026-06-08 15:36:47,797 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 15:36:47,798 - chromadb.segment.impl.vector.local_persistent_hnsw - WARNING - Number of requested results 20 is greater than number of elements in index 16, updating n_results = 16
+2026-06-08 15:36:47,802 - app.rag.ingestion - INFO - Retrieved | File=pricing_guide.txt | Chunk=0 | Score=1.1165
+2026-06-08 15:36:47,802 - app.rag.ingestion - INFO - Retrieved | File=pricing_guide.txt | Chunk=4 | Score=1.1825
+2026-06-08 15:36:47,802 - app.rag.ingestion - INFO - Retrieved | File=booking_policy.txt | Chunk=12 | Score=1.3493
+2026-06-08 15:36:47,802 - app.rag.ingestion - INFO - Retrieved | File=faqs.txt | Chunk=7 | Score=1.3990
+2026-06-08 15:36:47,802 - app.rag.ingestion - INFO - Retrieved | File=pricing_guide.txt | Chunk=2 | Score=1.5837
+2026-06-08 15:36:47,802 - app.rag.ingestion - INFO - No relevant documents found for query: rescheduling policy?
+2026-06-08 15:36:47,802 - app.rag.retriever - INFO - No documents retrieved for: 'rescheduling policy?'
+2026-06-08 15:36:47,802 - app.agent.inbound_agent - INFO - Retrieved 0 documents
+2026-06-08 15:36:49,456 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-08 15:36:57,856 - app.agent.inbound_agent - INFO - Generated response: Our rescheduling policy allows you to change or cancel your booking up to 24 hours prior to your sch
+2026-06-08 15:36:57,876 - app.agent.memory - INFO - Added user message to session e2d3353c-cf92-43a1-98d8-231cc91ab086
+2026-06-08 15:36:57,878 - app.agent.memory - INFO - Added assistant message to session e2d3353c-cf92-43a1-98d8-231cc91ab086
+2026-06-08 15:39:47,650 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-08 15:39:49,831 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-08 15:39:49,833 - app.main - INFO - Database initialized
+2026-06-08 15:40:16,351 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-08 15:40:18,317 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-08 15:40:18,318 - app.main - INFO - Database initialized
+2026-06-08 15:40:41,686 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-08 15:40:43,797 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-08 15:40:43,798 - app.main - INFO - Database initialized
+2026-06-08 15:40:57,656 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-08 15:40:59,329 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-08 15:40:59,331 - app.main - INFO - Database initialized
+2026-06-08 15:41:13,703 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-08 15:42:37,624 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-08 15:42:37,632 - app.main - INFO - Database initialized
+2026-06-08 15:42:46,616 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-06-08 15:42:46,773 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 15:42:46,775 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 15:42:46,787 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 15:42:46,790 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 15:42:46,792 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-08 15:42:46,799 - app.agent.memory - INFO - Created new session e21cd4af-8918-4a83-91c4-55a2f9302005 for customer web_demo
+2026-06-08 15:42:46,802 - app.agent.memory - INFO - Loaded 0 messages for session e21cd4af-8918-4a83-91c4-55a2f9302005
+2026-06-08 15:42:46,806 - app.agent.inbound_agent - INFO - Retrieving documents for: rescheduling policy?
+2026-06-08 15:42:58,573 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 15:42:58,774 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 15:42:59,010 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 15:42:59,016 - app.rag.ingestion - INFO - Retrieved | File=pricing_guide.txt | Chunk=0 | Score=1.1165
+2026-06-08 15:42:59,016 - app.rag.ingestion - INFO - Retrieved | File=pricing_guide.txt | Chunk=4 | Score=1.1825
+2026-06-08 15:42:59,016 - app.rag.ingestion - INFO - Retrieved | File=booking_policy.txt | Chunk=12 | Score=1.3493
+2026-06-08 15:42:59,016 - app.rag.ingestion - INFO - No relevant documents found for query: rescheduling policy?
+2026-06-08 15:42:59,017 - app.rag.retriever - INFO - No documents retrieved for: 'rescheduling policy?'
+2026-06-08 15:42:59,017 - app.agent.inbound_agent - INFO - Retrieved 0 documents
+2026-06-08 15:43:00,661 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-08 15:43:05,485 - app.agent.inbound_agent - INFO - Generated response: According to our rescheduling policy, you can make changes to your booking up to 24 hours prior to a
+2026-06-08 15:43:05,515 - app.agent.memory - INFO - Added user message to session e21cd4af-8918-4a83-91c4-55a2f9302005
+2026-06-08 15:43:05,517 - app.agent.memory - INFO - Added assistant message to session e21cd4af-8918-4a83-91c4-55a2f9302005
+2026-06-08 15:43:05,532 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-08 15:43:07,455 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-08 15:43:07,456 - app.main - INFO - Database initialized
+2026-06-08 15:43:11,202 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-08 15:43:13,249 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-08 15:43:13,251 - app.main - INFO - Database initialized
+2026-06-08 15:43:15,783 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-08 15:43:17,928 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-08 15:43:17,929 - app.main - INFO - Database initialized
+2026-06-08 15:43:18,133 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-08 15:43:29,767 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-08 15:43:29,780 - app.main - INFO - Database initialized
+2026-06-08 15:43:35,138 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-06-08 15:43:35,295 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 15:43:35,297 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 15:43:35,309 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 15:43:35,312 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 15:43:35,314 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-08 15:43:35,321 - app.agent.memory - INFO - Created new session e7432d72-4143-4019-b199-6b695b60793c for customer web_demo
+2026-06-08 15:43:35,324 - app.agent.memory - INFO - Loaded 0 messages for session e7432d72-4143-4019-b199-6b695b60793c
+2026-06-08 15:43:35,329 - app.agent.inbound_agent - INFO - Retrieving documents for: rescheduling policy?
+2026-06-08 15:43:43,908 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 15:43:44,094 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 15:43:44,312 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 15:43:44,317 - app.rag.ingestion - INFO - Retrieved | File=pricing_guide.txt | Chunk=0 | Score=1.1165
+2026-06-08 15:43:44,317 - app.rag.ingestion - INFO - Retrieved | File=pricing_guide.txt | Chunk=4 | Score=1.1825
+2026-06-08 15:43:44,317 - app.rag.ingestion - INFO - Retrieved | File=booking_policy.txt | Chunk=12 | Score=1.3493
+2026-06-08 15:43:44,317 - app.rag.ingestion - INFO - No relevant documents found for query: rescheduling policy?
+2026-06-08 15:43:44,318 - app.rag.retriever - INFO - No documents retrieved for: 'rescheduling policy?'
+2026-06-08 15:43:44,318 - app.agent.inbound_agent - INFO - Retrieved 0 documents
+2026-06-08 15:43:45,979 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-08 15:43:50,421 - app.agent.inbound_agent - INFO - Generated response: According to our rescheduling policy, you can make changes to your booking up to 24 hours prior to a
+2026-06-08 15:43:50,436 - app.agent.memory - INFO - Added user message to session e7432d72-4143-4019-b199-6b695b60793c
+2026-06-08 15:43:50,438 - app.agent.memory - INFO - Added assistant message to session e7432d72-4143-4019-b199-6b695b60793c
+2026-06-08 15:44:32,420 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-08 15:44:32,429 - app.agent.memory - INFO - Created new session ec7829e9-c238-4033-91b2-728d7744004c for customer web_demo
+2026-06-08 15:44:32,431 - app.agent.memory - INFO - Loaded 0 messages for session ec7829e9-c238-4033-91b2-728d7744004c
+2026-06-08 15:44:32,436 - app.agent.inbound_agent - INFO - Retrieving documents for: rescheduling policy?
+2026-06-08 15:44:36,174 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 15:44:36,436 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 15:44:36,441 - app.rag.ingestion - INFO - Retrieved | File=pricing_guide.txt | Chunk=0 | Score=1.1165
+2026-06-08 15:44:36,441 - app.rag.ingestion - INFO - Retrieved | File=pricing_guide.txt | Chunk=4 | Score=1.1825
+2026-06-08 15:44:36,441 - app.rag.ingestion - INFO - Retrieved | File=booking_policy.txt | Chunk=12 | Score=1.3493
+2026-06-08 15:44:36,441 - app.rag.ingestion - INFO - No relevant documents found for query: rescheduling policy?
+2026-06-08 15:44:36,441 - app.rag.retriever - INFO - No documents retrieved for: 'rescheduling policy?'
+2026-06-08 15:44:36,441 - app.agent.inbound_agent - INFO - Retrieved 0 documents
+2026-06-08 15:44:38,131 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-08 15:44:44,552 - app.agent.inbound_agent - INFO - Generated response: According to our rescheduling policy, you can make changes to your booking up to 24 hours prior to y
+2026-06-08 15:44:44,564 - app.agent.memory - INFO - Added user message to session ec7829e9-c238-4033-91b2-728d7744004c
+2026-06-08 15:44:44,566 - app.agent.memory - INFO - Added assistant message to session ec7829e9-c238-4033-91b2-728d7744004c
+2026-06-08 15:56:41,355 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-08 15:56:46,002 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-08 15:56:46,011 - app.main - INFO - Database initialized
+2026-06-08 15:56:58,051 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-06-08 15:56:58,208 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 15:56:58,210 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 15:56:58,223 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 15:56:58,225 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 15:56:58,228 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-08 15:56:58,234 - app.agent.memory - INFO - Created new session 7fe9723b-56fe-4427-b54f-bacb55e94e75 for customer web_demo
+2026-06-08 15:56:58,236 - app.agent.memory - INFO - Loaded 0 messages for session 7fe9723b-56fe-4427-b54f-bacb55e94e75
+2026-06-08 15:56:58,241 - app.agent.inbound_agent - INFO - Retrieving documents for: what is breakout
+2026-06-08 15:57:13,588 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 15:57:13,830 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 15:57:14,052 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 15:57:14,056 - app.rag.ingestion - INFO - Retrieved | File=pricing_guide.txt | Chunk=1 | Score=1.3366
+2026-06-08 15:57:14,056 - app.rag.ingestion - INFO - Retrieved | File=pricing_guide.txt | Chunk=0 | Score=1.4148
+2026-06-08 15:57:14,057 - app.rag.ingestion - INFO - Retrieved | File=booking_policy.txt | Chunk=14 | Score=1.8540
+2026-06-08 15:57:14,057 - app.rag.ingestion - INFO - No relevant documents found for query: what is breakout
+2026-06-08 15:57:14,057 - app.rag.retriever - INFO - No documents retrieved for: 'what is breakout'
+2026-06-08 15:57:14,057 - app.agent.inbound_agent - INFO - Retrieved 0 documents
+2026-06-08 15:57:15,788 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-08 15:57:16,862 - app.agent.inbound_agent - INFO - Generated response: I couldn't find any relevant information on "breakout" in the provided context.
+2026-06-08 15:57:16,875 - app.agent.memory - INFO - Added user message to session 7fe9723b-56fe-4427-b54f-bacb55e94e75
+2026-06-08 15:57:16,877 - app.agent.memory - INFO - Added assistant message to session 7fe9723b-56fe-4427-b54f-bacb55e94e75
+2026-06-08 15:59:22,004 - app.rag.ingestion - INFO - Loaded 3 TXT file(s).
+2026-06-08 15:59:22,006 - app.rag.ingestion - INFO - Loaded 0 PDF file(s).
+2026-06-08 15:59:22,009 - app.rag.ingestion - INFO - Split 3 docs → 37 chunks.
+2026-06-08 15:59:22,013 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 15:59:48,088 - app.api.document_routes - ERROR - Error getting status: 'Client' object has no attribute '_persist_directory'
+2026-06-08 16:00:15,426 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 16:00:15,592 - app.rag.ingestion - INFO - Ingested 37 new chunks (0 skipped as duplicates).
+2026-06-08 16:01:17,912 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-08 16:01:21,456 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-08 16:01:21,458 - app.main - INFO - Database initialized
+2026-06-08 16:01:27,767 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-06-08 16:01:27,915 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 16:01:27,916 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 16:01:27,927 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 16:01:27,928 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 16:01:27,933 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-08 16:01:27,939 - app.agent.memory - INFO - Created new session c06e61b6-3121-4324-8215-06d97287f5af for customer web_demo
+2026-06-08 16:01:27,940 - app.agent.memory - INFO - Loaded 0 messages for session c06e61b6-3121-4324-8215-06d97287f5af
+2026-06-08 16:01:27,945 - app.agent.inbound_agent - INFO - Retrieving documents for: what is breakout
+2026-06-08 16:01:35,373 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 16:01:35,613 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 16:01:35,821 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 16:01:35,828 - app.rag.ingestion - INFO - Retrieved | File=pricing_guide.txt | Chunk=1 | Score=1.3366
+2026-06-08 16:01:35,828 - app.rag.ingestion - INFO - Retrieved | File=faqs.txt | Chunk=30 | Score=1.4454
+2026-06-08 16:01:35,828 - app.rag.ingestion - INFO - Retrieved | File=escape_rooms.txt | Chunk=19 | Score=1.5288
+2026-06-08 16:01:35,828 - app.rag.ingestion - INFO - No relevant documents found for query: what is breakout
+2026-06-08 16:01:35,829 - app.rag.retriever - INFO - No documents retrieved for: 'what is breakout'
+2026-06-08 16:01:35,829 - app.agent.inbound_agent - INFO - Retrieved 0 documents
+2026-06-08 16:01:37,391 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-08 16:01:38,459 - app.agent.inbound_agent - INFO - Generated response: I couldn't find any relevant information on "breakout" in the provided documents.
+2026-06-08 16:01:38,470 - app.agent.memory - INFO - Added user message to session c06e61b6-3121-4324-8215-06d97287f5af
+2026-06-08 16:01:38,472 - app.agent.memory - INFO - Added assistant message to session c06e61b6-3121-4324-8215-06d97287f5af
+2026-06-08 16:03:04,585 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-08 16:08:26,721 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-08 16:08:26,733 - app.main - INFO - Database initialized
+2026-06-08 16:08:34,076 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-06-08 16:08:34,231 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 16:08:34,232 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 16:08:34,246 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 16:08:34,247 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 16:08:34,251 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-08 16:08:34,257 - app.agent.memory - INFO - Created new session 83ca9938-697b-47f4-b80e-ac7c39be78df for customer web_demo
+2026-06-08 16:08:34,259 - app.agent.memory - INFO - Loaded 0 messages for session 83ca9938-697b-47f4-b80e-ac7c39be78df
+2026-06-08 16:08:34,264 - app.agent.inbound_agent - INFO - Retrieving documents for: what is breakout
+2026-06-08 16:08:41,176 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 16:08:41,316 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 16:08:41,497 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 16:08:41,503 - app.rag.ingestion - INFO - Retrieved | File=faqs.txt | Chunk=29 | Score=1.4381
+2026-06-08 16:08:41,503 - app.rag.ingestion - INFO - Retrieved | File=faqs.txt | Chunk=30 | Score=1.4454
+2026-06-08 16:08:41,503 - app.rag.ingestion - INFO - Retrieved | File=escape_rooms.txt | Chunk=19 | Score=1.5288
+2026-06-08 16:08:41,503 - app.rag.ingestion - INFO - No relevant documents found for query: what is breakout
+2026-06-08 16:08:41,504 - app.rag.retriever - INFO - No documents retrieved for: 'what is breakout'
+2026-06-08 16:08:41,504 - app.agent.inbound_agent - INFO - Retrieved 0 documents
+2026-06-08 16:08:43,107 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-08 16:08:44,165 - app.agent.inbound_agent - INFO - Generated response: I couldn't find any relevant information on "breakout" in the provided documents.
+2026-06-08 16:08:44,178 - app.agent.memory - INFO - Added user message to session 83ca9938-697b-47f4-b80e-ac7c39be78df
+2026-06-08 16:08:44,181 - app.agent.memory - INFO - Added assistant message to session 83ca9938-697b-47f4-b80e-ac7c39be78df
+2026-06-08 16:10:26,265 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-08 16:10:28,356 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-08 16:10:28,358 - app.main - INFO - Database initialized
+2026-06-08 16:10:30,179 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-08 16:10:31,615 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-08 16:10:31,617 - app.main - INFO - Database initialized
+2026-06-08 16:11:04,752 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-06-08 16:11:04,906 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 16:11:04,907 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 16:11:04,921 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 16:11:04,922 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 16:11:04,926 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-08 16:11:04,935 - app.agent.memory - INFO - Created new session b0784b61-7176-4cec-9a1f-fb5668f660b6 for customer test
+2026-06-08 16:11:04,938 - app.agent.memory - INFO - Loaded 0 messages for session b0784b61-7176-4cec-9a1f-fb5668f660b6
+2026-06-08 16:11:04,944 - app.agent.inbound_agent - INFO - Retrieving documents for: what is breakout
+2026-06-08 16:11:09,475 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 16:11:09,609 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 16:11:09,944 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 16:11:09,950 - app.rag.ingestion - INFO - Retrieved | File=faqs.txt | Chunk=29 | Score=1.4381
+2026-06-08 16:11:09,950 - app.rag.ingestion - INFO - Retrieved | File=faqs.txt | Chunk=30 | Score=1.4454
+2026-06-08 16:11:09,950 - app.rag.ingestion - INFO - Retrieved | File=escape_rooms.txt | Chunk=19 | Score=1.5288
+2026-06-08 16:11:09,950 - app.rag.ingestion - INFO - Returning 3 relevant chunks. Scores: [1.4381, 1.4454, 1.5288]
+2026-06-08 16:11:09,952 - app.agent.inbound_agent - INFO - Retrieved 3 documents
+2026-06-08 16:11:15,811 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-08 16:11:17,164 - app.agent.inbound_agent - INFO - Generated response: I couldn't find any relevant information about "Breakout" in the provided documents.
+2026-06-08 16:11:17,165 - app.agent.inbound_agent - INFO - Overrode missing-info response with document excerpt.
+2026-06-08 16:11:17,180 - app.agent.memory - INFO - Added user message to session b0784b61-7176-4cec-9a1f-fb5668f660b6
+2026-06-08 16:11:17,181 - app.agent.memory - INFO - Added assistant message to session b0784b61-7176-4cec-9a1f-fb5668f660b6
+2026-06-08 16:11:44,783 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-08 16:11:56,853 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-08 16:11:56,855 - app.main - INFO - Database initialized
+2026-06-08 16:12:06,300 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-06-08 16:12:06,454 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 16:12:06,456 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 16:12:06,469 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 16:12:06,471 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 16:12:06,474 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-08 16:12:06,481 - app.agent.memory - INFO - Created new session 8415b9cd-1ff7-4f76-9e1a-badc89c2f253 for customer web_demo
+2026-06-08 16:12:06,483 - app.agent.memory - INFO - Loaded 0 messages for session 8415b9cd-1ff7-4f76-9e1a-badc89c2f253
+2026-06-08 16:12:06,488 - app.agent.inbound_agent - INFO - Retrieving documents for: what is breakout
+2026-06-08 16:12:10,337 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 16:12:10,517 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 16:12:10,733 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 16:12:10,739 - app.rag.ingestion - INFO - Retrieved | File=faqs.txt | Chunk=29 | Score=1.4381
+2026-06-08 16:12:10,739 - app.rag.ingestion - INFO - Retrieved | File=faqs.txt | Chunk=30 | Score=1.4454
+2026-06-08 16:12:10,739 - app.rag.ingestion - INFO - Retrieved | File=escape_rooms.txt | Chunk=19 | Score=1.5288
+2026-06-08 16:12:10,739 - app.rag.ingestion - INFO - Returning 3 relevant chunks. Scores: [1.4381, 1.4454, 1.5288]
+2026-06-08 16:12:10,739 - app.agent.inbound_agent - INFO - Retrieved 3 documents
+2026-06-08 16:12:14,993 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-08 16:12:16,071 - app.agent.inbound_agent - INFO - Generated response: I couldn't find any relevant information about "Breakout" in the provided documents.
+2026-06-08 16:12:16,072 - app.agent.inbound_agent - INFO - Overrode missing-info response with document excerpt.
+2026-06-08 16:12:16,087 - app.agent.memory - INFO - Added user message to session 8415b9cd-1ff7-4f76-9e1a-badc89c2f253
+2026-06-08 16:12:16,088 - app.agent.memory - INFO - Added assistant message to session 8415b9cd-1ff7-4f76-9e1a-badc89c2f253
+2026-06-08 16:13:30,602 - app.rag.ingestion - INFO - Loaded 3 TXT file(s).
+2026-06-08 16:13:30,603 - app.rag.ingestion - INFO - Loaded 0 PDF file(s).
+2026-06-08 16:13:30,606 - app.rag.ingestion - INFO - Split 3 docs → 37 chunks.
+2026-06-08 16:13:30,612 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 16:13:36,587 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 16:13:36,603 - app.rag.ingestion - ERROR - Error storing chunks: attempt to write a readonly database
+2026-06-08 16:13:36,605 - app.api.document_routes - ERROR - Error ingesting documents: 
+2026-06-08 16:13:36,665 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-08 16:13:59,789 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-08 16:13:59,790 - app.main - INFO - Database initialized
+2026-06-08 16:14:02,254 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-06-08 16:14:02,405 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 16:14:02,408 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 16:14:02,419 - app.rag.ingestion - INFO - Vector store empty — ingesting documents from documents.
+2026-06-08 16:14:02,421 - app.rag.ingestion - INFO - Loaded 3 TXT file(s).
+2026-06-08 16:14:02,421 - app.rag.ingestion - INFO - Loaded 0 PDF file(s).
+2026-06-08 16:14:02,422 - app.rag.ingestion - INFO - Split 3 docs → 37 chunks.
+2026-06-08 16:14:38,611 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 16:14:38,903 - app.rag.ingestion - INFO - Ingested 37 new chunks (0 skipped as duplicates).
+2026-06-08 16:14:38,906 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-08 16:14:38,917 - app.agent.memory - INFO - Created new session f3dbd4f5-5232-48f3-bb72-82c17763328e for customer web_demo
+2026-06-08 16:14:38,920 - app.agent.memory - INFO - Loaded 0 messages for session f3dbd4f5-5232-48f3-bb72-82c17763328e
+2026-06-08 16:14:38,929 - app.agent.inbound_agent - INFO - Retrieving documents for: what is breakout
+2026-06-08 16:14:39,108 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 16:14:39,117 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 16:14:39,273 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 16:14:39,279 - app.rag.ingestion - INFO - Retrieved | File=faqs.txt | Chunk=29 | Score=1.4381
+2026-06-08 16:14:39,279 - app.rag.ingestion - INFO - Retrieved | File=faqs.txt | Chunk=30 | Score=1.4454
+2026-06-08 16:14:39,279 - app.rag.ingestion - INFO - Retrieved | File=escape_rooms.txt | Chunk=19 | Score=1.5288
+2026-06-08 16:14:39,279 - app.rag.ingestion - INFO - Returning 3 relevant chunks. Scores: [1.4381, 1.4454, 1.5288]
+2026-06-08 16:14:39,279 - app.agent.inbound_agent - INFO - Retrieved 3 documents
+2026-06-08 16:14:43,475 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-08 16:14:44,571 - app.agent.inbound_agent - INFO - Generated response: I couldn't find any relevant information about "Breakout" in the provided documents.
+2026-06-08 16:14:44,572 - app.agent.inbound_agent - INFO - Overrode missing-info response with document excerpt.
+2026-06-08 16:14:44,587 - app.agent.memory - INFO - Added user message to session f3dbd4f5-5232-48f3-bb72-82c17763328e
+2026-06-08 16:14:44,590 - app.agent.memory - INFO - Added assistant message to session f3dbd4f5-5232-48f3-bb72-82c17763328e
+2026-06-08 16:18:38,158 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-08 16:18:38,171 - app.agent.memory - INFO - Created new session 7fdfa128-ede8-47e0-8ea5-814fba1f2900 for customer test
+2026-06-08 16:18:38,172 - app.agent.memory - INFO - Loaded 0 messages for session 7fdfa128-ede8-47e0-8ea5-814fba1f2900
+2026-06-08 16:18:38,178 - app.agent.inbound_agent - INFO - Retrieving documents for: what is breakout
+2026-06-08 16:18:41,115 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 16:18:41,303 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 16:18:41,309 - app.rag.ingestion - INFO - Retrieved | File=faqs.txt | Chunk=29 | Score=1.4381
+2026-06-08 16:18:41,309 - app.rag.ingestion - INFO - Retrieved | File=faqs.txt | Chunk=30 | Score=1.4454
+2026-06-08 16:18:41,309 - app.rag.ingestion - INFO - Retrieved | File=escape_rooms.txt | Chunk=19 | Score=1.5288
+2026-06-08 16:18:41,309 - app.rag.ingestion - INFO - Returning 3 relevant chunks. Scores: [1.4381, 1.4454, 1.5288]
+2026-06-08 16:18:41,310 - app.agent.inbound_agent - INFO - Retrieved 3 documents
+2026-06-08 16:18:45,004 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-08 16:18:46,536 - app.agent.inbound_agent - INFO - Generated response: I couldn't find any relevant information about "Breakout" in the provided documents.
+2026-06-08 16:18:46,537 - app.agent.inbound_agent - INFO - Overrode missing-info response with document excerpt.
+2026-06-08 16:18:46,548 - app.agent.memory - INFO - Added user message to session 7fdfa128-ede8-47e0-8ea5-814fba1f2900
+2026-06-08 16:18:46,550 - app.agent.memory - INFO - Added assistant message to session 7fdfa128-ede8-47e0-8ea5-814fba1f2900
+2026-06-08 16:20:39,776 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-08 16:20:42,681 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-08 16:20:42,682 - app.main - INFO - Database initialized
+2026-06-08 16:21:09,634 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-06-08 16:21:09,787 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 16:21:09,790 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 16:21:09,801 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 16:21:09,803 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 16:21:09,807 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-08 16:21:09,816 - app.agent.memory - INFO - Created new session dbc92e88-8fc8-4b07-b3d3-98f6ddf1ac52 for customer test
+2026-06-08 16:21:09,819 - app.agent.memory - INFO - Loaded 0 messages for session dbc92e88-8fc8-4b07-b3d3-98f6ddf1ac52
+2026-06-08 16:21:09,824 - app.agent.inbound_agent - INFO - Retrieving documents for: what is breakout
+2026-06-08 16:21:12,094 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 16:21:12,214 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 16:21:12,434 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 16:21:12,440 - app.rag.ingestion - INFO - Retrieved | File=faqs.txt | Chunk=29 | Score=1.4381
+2026-06-08 16:21:12,440 - app.rag.ingestion - INFO - Retrieved | File=faqs.txt | Chunk=30 | Score=1.4454
+2026-06-08 16:21:12,441 - app.rag.ingestion - INFO - Retrieved | File=escape_rooms.txt | Chunk=19 | Score=1.5288
+2026-06-08 16:21:12,441 - app.rag.ingestion - INFO - Returning 3 relevant chunks. Scores: [1.4381, 1.4454, 1.5288]
+2026-06-08 16:21:12,442 - app.agent.inbound_agent - INFO - Retrieved 3 documents
+2026-06-08 16:21:17,564 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-08 16:21:18,838 - app.agent.inbound_agent - INFO - Generated response: I couldn't find any relevant information about "Breakout" in the provided documents.
+2026-06-08 16:21:18,839 - app.agent.inbound_agent - INFO - Overrode missing-info response with document excerpt.
+2026-06-08 16:21:18,854 - app.agent.memory - INFO - Added user message to session dbc92e88-8fc8-4b07-b3d3-98f6ddf1ac52
+2026-06-08 16:21:18,855 - app.agent.memory - INFO - Added assistant message to session dbc92e88-8fc8-4b07-b3d3-98f6ddf1ac52
+2026-06-08 16:22:05,208 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-08 16:28:29,065 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-08 16:28:29,078 - app.main - INFO - Database initialized
+2026-06-08 16:28:40,161 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-06-08 16:28:40,317 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 16:28:40,320 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 16:28:40,332 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 16:28:40,334 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 16:28:40,337 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-08 16:28:40,344 - app.agent.memory - INFO - Created new session b859281d-1ca0-4da9-bc01-915c00f5fdfc for customer web_demo
+2026-06-08 16:28:40,346 - app.agent.memory - INFO - Loaded 0 messages for session b859281d-1ca0-4da9-bc01-915c00f5fdfc
+2026-06-08 16:28:40,351 - app.agent.inbound_agent - INFO - Retrieving documents for: what is breakout
+2026-06-08 16:28:51,828 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 16:28:51,997 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 16:28:52,204 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 16:28:52,210 - app.rag.ingestion - INFO - Retrieved | File=faqs.txt | Chunk=29 | Score=1.4381
+2026-06-08 16:28:52,210 - app.rag.ingestion - INFO - Retrieved | File=faqs.txt | Chunk=30 | Score=1.4454
+2026-06-08 16:28:52,210 - app.rag.ingestion - INFO - Retrieved | File=escape_rooms.txt | Chunk=19 | Score=1.5288
+2026-06-08 16:28:52,210 - app.rag.ingestion - INFO - Returning 3 relevant chunks. Scores: [1.4381, 1.4454, 1.5288]
+2026-06-08 16:28:52,210 - app.agent.inbound_agent - INFO - Retrieved 3 documents
+2026-06-08 16:28:56,750 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-08 16:28:57,827 - app.agent.inbound_agent - INFO - Generated response: I couldn't find any relevant information about "Breakout" in the provided documents.
+2026-06-08 16:28:57,828 - app.agent.inbound_agent - INFO - Overrode missing-info response with document excerpt.
+2026-06-08 16:28:57,845 - app.agent.memory - INFO - Added user message to session b859281d-1ca0-4da9-bc01-915c00f5fdfc
+2026-06-08 16:28:57,847 - app.agent.memory - INFO - Added assistant message to session b859281d-1ca0-4da9-bc01-915c00f5fdfc
+2026-06-08 16:30:18,706 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-08 16:30:18,720 - app.agent.memory - INFO - Created new session fb7ceda8-5b9f-401c-8dbc-ea830384984b for customer web_demo
+2026-06-08 16:30:18,722 - app.agent.memory - INFO - Loaded 0 messages for session fb7ceda8-5b9f-401c-8dbc-ea830384984b
+2026-06-08 16:30:18,726 - app.agent.inbound_agent - INFO - Retrieving documents for: what are the locations
+2026-06-08 16:30:29,113 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 16:30:29,393 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 16:30:29,399 - app.rag.ingestion - INFO - Retrieved | File=faqs.txt | Chunk=29 | Score=1.1508
+2026-06-08 16:30:29,399 - app.rag.ingestion - INFO - Retrieved | File=breakout_details.txt | Chunk=24 | Score=1.3668
+2026-06-08 16:30:29,399 - app.rag.ingestion - INFO - Retrieved | File=faqs.txt | Chunk=30 | Score=1.4316
+2026-06-08 16:30:29,399 - app.rag.ingestion - INFO - Returning 3 relevant chunks. Scores: [1.1508, 1.3668, 1.4316]
+2026-06-08 16:30:29,400 - app.agent.inbound_agent - INFO - Retrieved 3 documents
+2026-06-08 16:30:34,445 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-08 16:30:36,933 - app.agent.inbound_agent - INFO - Generated response: The available locations for corporate events are:
+
+1. Koramangala
+2. JP Nagar
+3. Whitefield
+2026-06-08 16:30:36,952 - app.agent.memory - INFO - Added user message to session fb7ceda8-5b9f-401c-8dbc-ea830384984b
+2026-06-08 16:30:36,955 - app.agent.memory - INFO - Added assistant message to session fb7ceda8-5b9f-401c-8dbc-ea830384984b
+2026-06-08 16:31:09,024 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-08 16:31:09,034 - app.agent.memory - INFO - Created new session b800bd1e-c260-41c8-9672-f05de74cb0c9 for customer web_demo
+2026-06-08 16:31:09,035 - app.agent.memory - INFO - Loaded 0 messages for session b800bd1e-c260-41c8-9672-f05de74cb0c9
+2026-06-08 16:31:09,040 - app.agent.inbound_agent - INFO - Retrieving documents for: . How long does a game last?
+2026-06-08 16:31:17,840 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 16:31:18,171 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 16:31:18,178 - app.rag.ingestion - INFO - Retrieved | File=breakout_details.txt | Chunk=25 | Score=0.9458
+2026-06-08 16:31:18,178 - app.rag.ingestion - INFO - Retrieved | File=faqs.txt | Chunk=29 | Score=1.1667
+2026-06-08 16:31:18,178 - app.rag.ingestion - INFO - Retrieved | File=escape_rooms.txt | Chunk=7 | Score=1.2085
+2026-06-08 16:31:18,178 - app.rag.ingestion - INFO - Returning 3 relevant chunks. Scores: [0.9458, 1.1667, 1.2085]
+2026-06-08 16:31:18,178 - app.agent.inbound_agent - INFO - Retrieved 3 documents
+2026-06-08 16:31:23,099 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-08 16:31:25,736 - app.agent.inbound_agent - INFO - Generated response: The length of our escape room games can vary, but most games typically last around 60 minutes. Howev
+2026-06-08 16:31:25,737 - app.agent.inbound_agent - INFO - Overrode missing-info response with document excerpt.
+2026-06-08 16:31:25,751 - app.agent.memory - INFO - Added user message to session b800bd1e-c260-41c8-9672-f05de74cb0c9
+2026-06-08 16:31:25,753 - app.agent.memory - INFO - Added assistant message to session b800bd1e-c260-41c8-9672-f05de74cb0c9
+2026-06-08 16:34:07,370 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-08 16:34:09,510 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-08 16:34:09,514 - app.main - INFO - Database initialized
+2026-06-08 16:35:19,302 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-08 16:35:21,353 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-08 16:35:21,355 - app.main - INFO - Database initialized
+2026-06-08 16:35:39,556 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-08 16:35:41,632 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-08 16:35:41,633 - app.main - INFO - Database initialized
+2026-06-08 16:40:00,930 - app.main - INFO - Shutting down Inbound Voice Agent...
+2026-06-08 16:40:02,997 - app.main - INFO - Starting Inbound Voice Agent...
+2026-06-08 16:40:02,999 - app.main - INFO - Database initialized
+2026-06-08 16:40:11,405 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-06-08 16:40:11,561 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 16:40:11,564 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 16:40:11,575 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 16:40:11,577 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 16:40:11,581 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-08 16:40:11,587 - app.agent.memory - INFO - Created new session a494e063-c5d1-47c6-b7b3-6a02078886ab for customer web_demo
+2026-06-08 16:40:11,590 - app.agent.memory - INFO - Loaded 0 messages for session a494e063-c5d1-47c6-b7b3-6a02078886ab
+2026-06-08 16:40:11,594 - app.agent.inbound_agent - INFO - Retrieving documents for: . How long does a game last?
+2026-06-08 16:40:25,946 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 16:40:26,141 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-06-08 16:40:26,461 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 16:40:26,467 - app.rag.ingestion - INFO - Retrieved | File=faqs.txt | Chunk=29 | Score=1.1902
+2026-06-08 16:40:26,468 - app.rag.ingestion - INFO - Retrieved | File=escape_rooms.txt | Chunk=6 | Score=1.2895
+2026-06-08 16:40:26,468 - app.rag.ingestion - INFO - Retrieved | File=escape_rooms.txt | Chunk=19 | Score=1.4001
+2026-06-08 16:40:26,468 - app.rag.ingestion - INFO - Retrieved | File=faqs.txt | Chunk=30 | Score=1.4410
+2026-06-08 16:40:26,468 - app.rag.ingestion - INFO - Retrieved | File=faqs.txt | Chunk=32 | Score=1.5776
+2026-06-08 16:40:26,468 - app.rag.ingestion - INFO - Returning 5 relevant chunks. Scores: [1.1902, 1.2895, 1.4001, 1.441, 1.5776]
+2026-06-08 16:40:26,468 - app.agent.inbound_agent - INFO - Retrieved 5 documents
+2026-06-08 16:40:32,307 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-08 16:40:34,842 - app.agent.inbound_agent - INFO - Generated response: The length of a game can vary depending on the specific room and the number of players. However, mos
+2026-06-08 16:40:34,857 - app.agent.memory - INFO - Added user message to session a494e063-c5d1-47c6-b7b3-6a02078886ab
+2026-06-08 16:40:34,860 - app.agent.memory - INFO - Added assistant message to session a494e063-c5d1-47c6-b7b3-6a02078886ab
+2026-06-08 17:28:06,991 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-08 17:28:07,006 - app.agent.memory - INFO - Created new session f6c4fdf3-2000-4722-a50a-03de69c2a837 for customer web_demo
+2026-06-08 17:28:07,007 - app.agent.memory - INFO - Loaded 0 messages for session f6c4fdf3-2000-4722-a50a-03de69c2a837
+2026-06-08 17:28:07,011 - app.agent.inbound_agent - INFO - Retrieving documents for: What is breakout
+2026-06-08 17:28:07,273 - app.agent.inbound_agent - INFO - InboundVoiceAgent initialized
+2026-06-08 17:28:07,275 - app.agent.memory - INFO - Created new session 2dec6f83-4765-4ee3-b084-5e6145c3f54b for customer web_demo
+2026-06-08 17:28:07,277 - app.agent.memory - INFO - Loaded 0 messages for session 2dec6f83-4765-4ee3-b084-5e6145c3f54b
+2026-06-08 17:28:07,279 - app.agent.inbound_agent - INFO - Retrieving documents for: What is breakout
+2026-06-08 17:28:19,613 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 17:28:19,975 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 17:28:20,354 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 17:28:20,361 - app.rag.ingestion - INFO - Retrieved | File=faqs.txt | Chunk=29 | Score=1.2689
+2026-06-08 17:28:20,361 - app.rag.ingestion - INFO - Retrieved | File=escape_rooms.txt | Chunk=19 | Score=1.3507
+2026-06-08 17:28:20,361 - app.rag.ingestion - INFO - Retrieved | File=faqs.txt | Chunk=30 | Score=1.3828
+2026-06-08 17:28:20,361 - app.rag.ingestion - INFO - Retrieved | File=breakout_details.txt | Chunk=24 | Score=1.4209
+2026-06-08 17:28:20,361 - app.rag.ingestion - INFO - Retrieved | File=escape_rooms.txt | Chunk=15 | Score=1.6897
+2026-06-08 17:28:20,361 - app.rag.ingestion - INFO - Returning 5 relevant chunks. Scores: [1.2689, 1.3507, 1.3828, 1.4209, 1.6897]
+2026-06-08 17:28:20,362 - app.agent.inbound_agent - INFO - Retrieved 5 documents
+2026-06-08 17:28:20,659 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-06-08 17:28:20,666 - app.rag.ingestion - INFO - Retrieved | File=faqs.txt | Chunk=29 | Score=1.2689
+2026-06-08 17:28:20,666 - app.rag.ingestion - INFO - Retrieved | File=escape_rooms.txt | Chunk=19 | Score=1.3507
+2026-06-08 17:28:20,666 - app.rag.ingestion - INFO - Retrieved | File=faqs.txt | Chunk=30 | Score=1.3828
+2026-06-08 17:28:20,666 - app.rag.ingestion - INFO - Retrieved | File=breakout_details.txt | Chunk=24 | Score=1.4209
+2026-06-08 17:28:20,666 - app.rag.ingestion - INFO - Retrieved | File=escape_rooms.txt | Chunk=15 | Score=1.6897
+2026-06-08 17:28:20,666 - app.rag.ingestion - INFO - Returning 5 relevant chunks. Scores: [1.2689, 1.3507, 1.3828, 1.4209, 1.6897]
+2026-06-08 17:28:20,666 - app.agent.inbound_agent - INFO - Retrieved 5 documents
+2026-06-08 17:28:25,255 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-08 17:28:28,342 - app.agent.inbound_agent - INFO - Generated response: Breakout refers to a type of activity offered by the company, where teams participate in a series of
+2026-06-08 17:28:28,356 - app.agent.memory - INFO - Added user message to session f6c4fdf3-2000-4722-a50a-03de69c2a837
+2026-06-08 17:28:28,357 - app.agent.memory - INFO - Added assistant message to session f6c4fdf3-2000-4722-a50a-03de69c2a837
+2026-06-08 17:28:28,423 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-06-08 17:28:31,893 - app.agent.inbound_agent - INFO - Generated response: Breakout refers to a type of activity offered by the company, where teams participate in a series of
+2026-06-08 17:28:31,905 - app.agent.memory - INFO - Added user message to session 2dec6f83-4765-4ee3-b084-5e6145c3f54b
+2026-06-08 17:28:31,907 - app.agent.memory - INFO - Added assistant message to session 2dec6f83-4765-4ee3-b084-5e6145c3f54b
+2026-06-08 17:29:01,033 - app.main - INFO - Shutting down Inbound Voice Agent...

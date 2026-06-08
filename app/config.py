@@ -19,7 +19,7 @@ class Settings(BaseSettings):
     vector_store_path: str = "./chroma_db"
 
     # Document Configuration
-    document_path: str = "./data"
+    document_path: str = "./documents"
 
     # API Configuration
     api_host: str = "0.0.0.0"

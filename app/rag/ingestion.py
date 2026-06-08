@@ -22,6 +22,7 @@ from __future__ import annotations
 import hashlib
 import logging
 import os
+import shutil
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
@@ -94,8 +95,17 @@ class DocumentIngestionPipeline:
             persist_directory=persist_dir,
             embedding_function=self.embeddings,
         )
+        doc_path = Path(settings.document_path)
         if self._is_vector_store_empty():
-            logger.info("Vector store empty — ingesting documents from data directory.")
+            logger.info("Vector store empty — ingesting documents from %s.", doc_path)
+            self.ingest_documents()
+        elif doc_path.exists() and not self._vector_store_matches_document_path(doc_path):
+            logger.warning(
+                "Existing vector store contents do not match document_path=%s; "
+                "rebuilding store from the configured path.",
+                doc_path,
+            )
+            self._reset_vector_store(persist_dir)
             self.ingest_documents()
 
     def _is_vector_store_empty(self) -> bool:
@@ -143,35 +153,52 @@ class DocumentIngestionPipeline:
     def load_documents(self, document_path: str = None) -> List[Document]:
         document_path = document_path or settings.document_path
         path = Path(document_path)
+        fallback_path = Path("./documents")
+
         if not path.exists():
             logger.warning("Document path does not exist: %s", document_path)
-            return []
+            if fallback_path.exists() and fallback_path != path:
+                logger.warning("Falling back to document directory: %s", fallback_path)
+                path = fallback_path
+            else:
+                return []
 
         docs: List[Document] = []
+        source_path = path
 
         for glob, loader_cls, label in [
             ("**/*.txt", TextLoader, "TXT"),
             ("**/*.pdf", PyPDFLoader, "PDF"),
         ]:
             try:
-                loader = DirectoryLoader(document_path, glob=glob, loader_cls=loader_cls)
+                loader = DirectoryLoader(str(source_path), glob=glob, loader_cls=loader_cls)
                 loaded = loader.load()
                 docs.extend(loaded)
                 logger.info("Loaded %d %s file(s).", len(loaded), label)
             except Exception as exc:
                 logger.error("Error loading %s files: %s", label, exc)
 
-        for docx_path in path.rglob("*.docx"):
+        for docx_path in source_path.rglob("*.docx"):
             try:
                 docs.extend(self._load_docx(docx_path))
             except Exception as exc:
                 logger.error("Error loading DOCX %s: %s", docx_path, exc)
 
-        for xlsx_path in path.rglob("*.xlsx"):
+        for xlsx_path in source_path.rglob("*.xlsx"):
             try:
                 docs.extend(self._load_xlsx(xlsx_path))
             except Exception as exc:
                 logger.error("Error loading XLSX %s: %s", xlsx_path, exc)
+
+        if not docs and fallback_path.exists() and fallback_path != source_path:
+            logger.info(
+                "No documents loaded from %s; falling back to %s.",
+                source_path,
+                fallback_path,
+            )
+            return self.load_documents(str(fallback_path))
+
+        return docs
 
         return docs
 
@@ -336,24 +363,50 @@ class DocumentIngestionPipeline:
                     else:
                         raise
 
-            filtered = [
-                (doc, score) for doc, score in results if score <= score_threshold
-            ]
+            # Determine whether higher scores indicate better matches (similarity)
+            # or lower scores indicate better matches (distance). Some vector
+            # backends return distances (>0, lower is better) while others
+            # return similarity scores (higher is better). Choose comparison
+            # dynamically based on observed score magnitudes.
+            scores = [score for _, score in results]
+            max_score = max(scores) if scores else 0.0
+            min_score = min(scores) if scores else 0.0
+
+            if max_score > 1.0:
+                # Treat score as similarity (higher is better)
+                comparator = lambda s: s >= score_threshold
+            else:
+                # Treat score as distance (lower is better)
+                comparator = lambda s: s <= score_threshold
+
+            filtered = [(doc, score) for doc, score in results if comparator(score)]
+
+            for doc, score in results:
+                logger.info(
+                    "Retrieved | File=%s | Chunk=%s | Score=%.4f",
+                    doc.metadata.get("filename"),
+                    doc.metadata.get("chunk_index"),
+                    score,
+                )
+
+            # (filtered already set above)
 
             if not filtered:
                 logger.info(
-                    "All %d chunks exceeded score threshold %.2f — returning top %d anyway.",
-                    len(results), score_threshold, min(k, len(results))
+                    "No relevant documents found for query: %s",
+                    query,
                 )
-                filtered = sorted(results, key=lambda x: x[1])[:k]
+                return []
 
-            logger.debug(
-                "Retrieved %d chunks for query %r | scores: %s",
+            filtered.sort(key=lambda x: x[1])
+
+            logger.info(
+                "Returning %d relevant chunks. Scores: %s",
                 len(filtered),
-                query[:60],
-                [round(s, 3) for _, s in filtered],
+                [round(score, 4) for _, score in filtered],
             )
-            return filtered
+
+            return filtered[:k]
 
         except Exception as exc:
             logger.error("Retrieval error: %s", exc)
@@ -362,6 +415,38 @@ class DocumentIngestionPipeline:
     # ------------------------------------------------------------------
     # Helpers
     # ------------------------------------------------------------------
+
+    def _vector_store_matches_document_path(self, document_path: Path) -> bool:
+        try:
+            result = self.vector_store.get(include=["metadatas"], limit=100)
+            has_current_path_docs = False
+            for metadata in result.get("metadatas", []):
+                if not metadata:
+                    continue
+                source = metadata.get("source", "")
+                if not source:
+                    return False
+                source_path = Path(source).resolve()
+                if source_path.is_relative_to(document_path.resolve()):
+                    has_current_path_docs = True
+                else:
+                    return False
+            return has_current_path_docs
+        except Exception:
+            return False
+
+    def _reset_vector_store(self, persist_dir: str) -> None:
+        try:
+            self.vector_store = None
+            shutil.rmtree(persist_dir, ignore_errors=True)
+            os.makedirs(persist_dir, exist_ok=True)
+            self.vector_store = Chroma(
+                persist_directory=persist_dir,
+                embedding_function=self.embeddings,
+            )
+        except Exception as exc:
+            logger.error("Failed to reset vector store: %s", exc)
+            raise
 
     def _get_existing_hashes(self) -> set:
         try:
